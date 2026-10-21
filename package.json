@@ -3,7 +3,7 @@
   "name": "bitly-url-shortener",
   "title": "Bitly URL Shortener",
   "description": "Quickly shorten the selected URL or current clipboard URL with Bitly",
-  "icon": "command-icon.png",
+  "icon": "assets/command-icon.png",
   "categories": [
     "Communication"
   ],
