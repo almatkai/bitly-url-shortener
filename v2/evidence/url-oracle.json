@@ -1,0 +1,102 @@
+[
+  {
+    "input": "",
+    "accepted": false,
+    "literal": null
+  },
+  {
+    "input": "example.test",
+    "accepted": false,
+    "literal": null
+  },
+  {
+    "input": "/relative",
+    "accepted": false,
+    "literal": null
+  },
+  {
+    "input": "http://",
+    "accepted": false,
+    "literal": null
+  },
+  {
+    "input": "https://[oops",
+    "accepted": false,
+    "literal": null
+  },
+  {
+    "input": " HTTPS://EXAMPLE.test/a/../b ",
+    "accepted": true,
+    "literal": "HTTPS://EXAMPLE.test/a/../b"
+  },
+  {
+    "input": "https:example.test",
+    "accepted": true,
+    "literal": "https:example.test"
+  },
+  {
+    "input": "https://münich.test/π",
+    "accepted": true,
+    "literal": "https://münich.test/π"
+  },
+  {
+    "input": "mailto:hello@example.test",
+    "accepted": true,
+    "literal": "mailto:hello@example.test"
+  },
+  {
+    "input": "javascript:alert(1)",
+    "accepted": true,
+    "literal": "javascript:alert(1)"
+  },
+  {
+    "input": "file:///tmp/example",
+    "accepted": true,
+    "literal": "file:///tmp/example"
+  },
+  {
+    "input": "ftp://example.test/a",
+    "accepted": true,
+    "literal": "ftp://example.test/a"
+  },
+  {
+    "input": "﻿https://example.test/a﻿",
+    "accepted": true,
+    "literal": "https://example.test/a"
+  },
+  {
+    "input": "https://example.test/a",
+    "accepted": false,
+    "literal": null
+  },
+  {
+    "input": "https://example.test/a\nb",
+    "accepted": true,
+    "literal": "https://example.test/a\nb"
+  },
+  {
+    "input": "data:text/plain,hello",
+    "accepted": true,
+    "literal": "data:text/plain,hello"
+  },
+  {
+    "input": "https://user:pass@example.test/a",
+    "accepted": true,
+    "literal": "https://user:pass@example.test/a"
+  },
+  {
+    "input": "http://127.0.0.1",
+    "accepted": true,
+    "literal": "http://127.0.0.1"
+  },
+  {
+    "input": "http://0x7f000001",
+    "accepted": true,
+    "literal": "http://0x7f000001"
+  },
+  {
+    "input": "https://example.test/?a=%zz",
+    "accepted": true,
+    "literal": "https://example.test/?a=%zz"
+  }
+]

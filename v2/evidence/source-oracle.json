@@ -1,0 +1,624 @@
+{
+  "source": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+  "lockedUtils": "2.2.2",
+  "producerPolicy": "closed VM; fetch/selection/clipboard/preferences/cache injected; fs/os/process/network/browser denied",
+  "results": [
+    {
+      "name": "selected-literal",
+      "events": [
+        [
+          "toast",
+          "Shortening"
+        ],
+        [
+          "selection"
+        ],
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/shorten",
+          "post",
+          "{\"long_url\":\"HTTPS://EXAMPLE.test/a/../b\"}"
+        ],
+        [
+          "copy",
+          "https://bit.ly/test"
+        ],
+        [
+          "toast-set",
+          "style",
+          "success"
+        ],
+        [
+          "toast-set",
+          "title",
+          "Success"
+        ],
+        [
+          "toast-set",
+          "message",
+          "Copied shortened URL to clipboard"
+        ]
+      ],
+      "toast": [
+        {
+          "style": "success",
+          "title": "Success",
+          "message": "Copied shortened URL to clipboard"
+        }
+      ]
+    },
+    {
+      "name": "empty-fallback",
+      "events": [
+        [
+          "toast",
+          "Shortening"
+        ],
+        [
+          "selection"
+        ],
+        [
+          "clipboard-read"
+        ],
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/shorten",
+          "post",
+          "{\"long_url\":\"https://example.test/c\"}"
+        ],
+        [
+          "copy",
+          "https://bit.ly/test"
+        ],
+        [
+          "toast-set",
+          "style",
+          "success"
+        ],
+        [
+          "toast-set",
+          "title",
+          "Success"
+        ],
+        [
+          "toast-set",
+          "message",
+          "Copied shortened URL to clipboard"
+        ]
+      ],
+      "toast": [
+        {
+          "style": "success",
+          "title": "Success",
+          "message": "Copied shortened URL to clipboard"
+        }
+      ]
+    },
+    {
+      "name": "rejected-fallback",
+      "events": [
+        [
+          "toast",
+          "Shortening"
+        ],
+        [
+          "selection"
+        ],
+        [
+          "clipboard-read"
+        ],
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/shorten",
+          "post",
+          "{\"long_url\":\"https://example.test/e\"}"
+        ],
+        [
+          "copy",
+          "https://bit.ly/test"
+        ],
+        [
+          "toast-set",
+          "style",
+          "success"
+        ],
+        [
+          "toast-set",
+          "title",
+          "Success"
+        ],
+        [
+          "toast-set",
+          "message",
+          "Copied shortened URL to clipboard"
+        ]
+      ],
+      "toast": [
+        {
+          "style": "success",
+          "title": "Success",
+          "message": "Copied shortened URL to clipboard"
+        }
+      ]
+    },
+    {
+      "name": "custom-scheme",
+      "events": [
+        [
+          "toast",
+          "Shortening"
+        ],
+        [
+          "selection"
+        ],
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/shorten",
+          "post",
+          "{\"long_url\":\"javascript:alert(1)\"}"
+        ],
+        [
+          "copy",
+          "https://bit.ly/test"
+        ],
+        [
+          "toast-set",
+          "style",
+          "success"
+        ],
+        [
+          "toast-set",
+          "title",
+          "Success"
+        ],
+        [
+          "toast-set",
+          "message",
+          "Copied shortened URL to clipboard"
+        ]
+      ],
+      "toast": [
+        {
+          "style": "success",
+          "title": "Success",
+          "message": "Copied shortened URL to clipboard"
+        }
+      ]
+    },
+    {
+      "name": "paste-order",
+      "events": [
+        [
+          "toast",
+          "Shortening"
+        ],
+        [
+          "selection"
+        ],
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/shorten",
+          "post",
+          "{\"long_url\":\"https://example.test/a\"}"
+        ],
+        [
+          "copy",
+          "https://bit.ly/test"
+        ],
+        [
+          "toast-set",
+          "style",
+          "success"
+        ],
+        [
+          "toast-set",
+          "title",
+          "Success"
+        ],
+        [
+          "toast-set",
+          "message",
+          "Copied shortened URL to clipboard"
+        ],
+        [
+          "paste",
+          "https://bit.ly/test"
+        ]
+      ],
+      "toast": [
+        {
+          "style": "success",
+          "title": "Success",
+          "message": "Copied shortened URL to clipboard"
+        }
+      ]
+    },
+    {
+      "name": "copy-failure",
+      "events": [
+        [
+          "toast",
+          "Shortening"
+        ],
+        [
+          "selection"
+        ],
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/shorten",
+          "post",
+          "{\"long_url\":\"https://example.test/a\"}"
+        ],
+        [
+          "copy",
+          "https://bit.ly/test"
+        ],
+        [
+          "toast-set",
+          "style",
+          "failure"
+        ],
+        [
+          "toast-set",
+          "title",
+          "Error"
+        ],
+        [
+          "toast-set",
+          "message",
+          "Error: synthetic copy failure"
+        ]
+      ],
+      "toast": [
+        {
+          "style": "failure",
+          "title": "Error",
+          "message": "Error: synthetic copy failure"
+        }
+      ]
+    },
+    {
+      "name": "invalid-input",
+      "events": [
+        [
+          "toast",
+          "Shortening"
+        ],
+        [
+          "selection"
+        ],
+        [
+          "toast-set",
+          "style",
+          "failure"
+        ],
+        [
+          "toast-set",
+          "title",
+          "Error"
+        ],
+        [
+          "toast-set",
+          "message",
+          "TypeError: Invalid URL"
+        ]
+      ],
+      "toast": [
+        {
+          "style": "failure",
+          "title": "Error",
+          "message": "TypeError: Invalid URL"
+        }
+      ]
+    },
+    {
+      "name": "empty-input",
+      "events": [
+        [
+          "toast",
+          "Shortening"
+        ],
+        [
+          "selection"
+        ],
+        [
+          "clipboard-read"
+        ],
+        [
+          "toast-set",
+          "style",
+          "failure"
+        ],
+        [
+          "toast-set",
+          "title",
+          "Error"
+        ],
+        [
+          "toast-set",
+          "message",
+          "No text selected and clipboard is empty"
+        ]
+      ],
+      "toast": [
+        {
+          "style": "failure",
+          "title": "Error",
+          "message": "No text selected and clipboard is empty"
+        }
+      ]
+    },
+    {
+      "name": "auth-401",
+      "events": [
+        [
+          "toast",
+          "Shortening"
+        ],
+        [
+          "selection"
+        ],
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/shorten",
+          "post",
+          "{\"long_url\":\"https://example.test/a\"}"
+        ],
+        [
+          "toast-set",
+          "style",
+          "failure"
+        ],
+        [
+          "toast-set",
+          "title",
+          "Invalid Access Token"
+        ],
+        [
+          "toast-set",
+          "message",
+          "INVALID_TOKEN Check that your Bitly access token is correct and hasn't expired or been revoked."
+        ],
+        [
+          "toast-set",
+          "primaryAction",
+          "action"
+        ],
+        [
+          "preferences"
+        ]
+      ],
+      "toast": [
+        {
+          "style": "failure",
+          "title": "Invalid Access Token",
+          "message": "INVALID_TOKEN Check that your Bitly access token is correct and hasn't expired or been revoked.",
+          "primaryAction": {
+            "title": "Open Command Preferences",
+            "onAction": "[callback]"
+          }
+        }
+      ]
+    },
+    {
+      "name": "permission-403",
+      "events": [
+        [
+          "toast",
+          "Shortening"
+        ],
+        [
+          "selection"
+        ],
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/shorten",
+          "post",
+          "{\"long_url\":\"https://example.test/a\"}"
+        ],
+        [
+          "toast-set",
+          "style",
+          "failure"
+        ],
+        [
+          "toast-set",
+          "title",
+          "Error"
+        ],
+        [
+          "toast-set",
+          "message",
+          "Bitly API Error - DENIED, URL - https://example.test/a"
+        ]
+      ],
+      "toast": [
+        {
+          "style": "failure",
+          "title": "Error",
+          "message": "Bitly API Error - DENIED, URL - https://example.test/a"
+        }
+      ]
+    },
+    {
+      "name": "list-success",
+      "events": [
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/groups/group_test/bitlinks?query=",
+          "GET",
+          null
+        ]
+      ],
+      "tree": {
+        "type": "List",
+        "props": {
+          "isLoading": false,
+          "searchBarPlaceholder": "Search links",
+          "onSearchTextChange": "[callback]",
+          "throttle": true,
+          "children": [
+            {
+              "type": "List.Item",
+              "props": {
+                "icon": {
+                  "source": "https://api.ray.so/favicon?url=example.test&size=64"
+                },
+                "title": "Original title",
+                "subtitle": "https://bit.ly/a",
+                "accessories": [
+                  {
+                    "date": "2026-01-02T03:04:05.000Z",
+                    "tooltip": "Fri Jan 02 2026"
+                  }
+                ],
+                "actions": {
+                  "type": "ActionPanel",
+                  "props": {
+                    "children": [
+                      {
+                        "type": "Action.CopyToClipboard",
+                        "props": {
+                          "title": "Copy Bitlink",
+                          "content": "https://bit.ly/a"
+                        }
+                      },
+                      {
+                        "type": "Action.OpenInBrowser",
+                        "props": {
+                          "title": "Open in Bitly",
+                          "url": "https://app.bitly.com/group_test/links/https://bit.ly/a/details"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "list-search",
+      "events": [
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/groups/group_test/bitlinks?query=",
+          "GET",
+          null
+        ],
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/groups/group_test/bitlinks?query=a&b #",
+          "GET",
+          null
+        ]
+      ],
+      "tree": {
+        "type": "List",
+        "props": {
+          "isLoading": false,
+          "searchBarPlaceholder": "Search links",
+          "onSearchTextChange": "[callback]",
+          "throttle": true,
+          "children": {
+            "type": "List.EmptyView",
+            "props": {
+              "icon": "links-filter-empty-state",
+              "title": "No results found",
+              "description": "Try adjusting your search, filters, or try searching hidden links instead."
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "list-empty",
+      "events": [
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/groups/group_test/bitlinks?query=",
+          "GET",
+          null
+        ]
+      ],
+      "tree": {
+        "type": "List",
+        "props": {
+          "isLoading": false,
+          "searchBarPlaceholder": "Search links",
+          "onSearchTextChange": "[callback]",
+          "throttle": true,
+          "children": {
+            "type": "List.EmptyView",
+            "props": {
+              "icon": "links-list-empty.png",
+              "title": "More clicks are just a link away",
+              "description": "Shorten long links and get attention by customizing what they say. No more bit.ly/3yqawYa, more bit.ly/brands-bitly.",
+              "actions": {
+                "type": "ActionPanel",
+                "props": {
+                  "children": {
+                    "type": "Action.OpenInBrowser",
+                    "props": {
+                      "title": "Create a Bitly Link",
+                      "url": "https://app.bitly.com/group_test/links/create"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "list-auth",
+      "events": [
+        [
+          "fetch",
+          "https://api-ssl.bitly.com/v4/groups/group_test/bitlinks?query=",
+          "GET",
+          null
+        ],
+        [
+          "toast",
+          "Invalid Access Token"
+        ],
+        [
+          "preferences"
+        ]
+      ],
+      "tree": {
+        "type": "List",
+        "props": {
+          "isLoading": false,
+          "searchBarPlaceholder": "Search links",
+          "onSearchTextChange": "[callback]",
+          "throttle": true,
+          "children": {
+            "type": "List.EmptyView",
+            "props": {
+              "icon": "links-list-empty.png",
+              "title": "More clicks are just a link away",
+              "description": "Shorten long links and get attention by customizing what they say. No more bit.ly/3yqawYa, more bit.ly/brands-bitly.",
+              "actions": {
+                "type": "ActionPanel",
+                "props": {
+                  "children": {
+                    "type": "Action.OpenInBrowser",
+                    "props": {
+                      "title": "Create a Bitly Link",
+                      "url": "https://app.bitly.com/group_test/links/create"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Bitly URL Shortener — external Rust V2, review implementation (not released/installed).
+Source: https://github.com/almatkai/bitly-url-shortener at d946df7d3643a05f2bb3fadd12edf0b8a3858598.
+Original source and root license copyright (c) 2026 almatkai, MIT. LICENSE preserves the original bytes (including literal backslash-n formatting).
+Raycast extension source and three original PNG assets: https://github.com/raycast/extensions at 6734d85992290066fd31a7f5bee3cca3d3545a1a, extensions/bitly-url-shortener. Copyright (c) 2021 Raycast, MIT; authentic upstream text in licenses/UPSTREAM-MIT.txt. No image modification or recompression.
+SDK: tezbar-extension-sdk 0.1.1, immutable HTTPS Git revision e955911f0bf5b558f9d3eb5183df0adc95c22af2. Apache-2.0 text in licenses/SDK-LICENSE.
+Host fixture extracts and integration patch reference Tezbar ea100cee3f69711de12485ba061950c5fc65258f; Apache-2.0 in licenses/HOST-APACHE.txt. Host code is QA evidence, not linked into the executable.
+Cargo-locked dependency license identifiers, sources and exact distributed notice/license file hashes are recorded in licenses/dependency-index.json; authentic files are under licenses/dependencies/.
+No separate icon trademark grant is asserted. Asset provenance/license evidence does not assert affiliation with Bitly or Raycast.
+QA-only original @raycast/api and @raycast/utils use their locked package distributions in disposable qa; their package metadata declares MIT. @raycast/utils does not distribute a separate LICENSE text; this gap is explicit. QA Node modules are not packaged. Additional QA tooling license evidence is recorded separately.

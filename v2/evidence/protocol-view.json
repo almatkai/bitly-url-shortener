@@ -1,0 +1,48 @@
+{
+  "actions": [
+    {
+      "id": "bitly:8:9",
+      "kind": "copy",
+      "title": "Copy Bitlink"
+    },
+    {
+      "id": "bitly:8:10",
+      "kind": "open",
+      "title": "Open in Bitly"
+    }
+  ],
+  "effects": [],
+  "mode": "view",
+  "ok": true,
+  "refreshMs": null,
+  "root": {
+    "children": [
+      {
+        "props": {
+          "accessories": [
+            {
+              "date": "2026-01-02T03:04:05Z"
+            }
+          ],
+          "actionIds": [
+            "bitly:8:9",
+            "bitly:8:10"
+          ],
+          "id": "bit.ly/test",
+          "subtitle": "https://bit.ly/test",
+          "title": "<img src=x> ![remote](https://evil.test/x)"
+        },
+        "type": "List.Item"
+      }
+    ],
+    "props": {
+      "__hasMore": false,
+      "__hasServerSearch": true,
+      "isLoading": false,
+      "searchBarPlaceholder": "Search links",
+      "searchText": "A"
+    },
+    "type": "List"
+  },
+  "title": "Bitly"
+}

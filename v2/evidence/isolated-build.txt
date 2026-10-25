@@ -1,0 +1,2 @@
+PASS: fresh source copy, fresh Cargo home; immutable HTTPS SDK Git dependency, no local path/patch; production release binary built.
+QA directory: isolated-678261bf

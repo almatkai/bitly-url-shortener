@@ -17,3 +17,5 @@ You can also list links in a group!
 5. Ensure raycast is enabled in `System Settings > Privacy & Security > Accessibility`
 
 _Note: If this instruction wasn't clear, please let me know in [Slack Community](https://raycast.com/community) or feel free to create a PR with improved steps._
+
+[Rust V2 implementation and review notes](./v2/README.md).
