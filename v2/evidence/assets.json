@@ -1,0 +1,32 @@
+[
+  {
+    "path": "command-icon.png",
+    "url": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/bitly-url-shortener/assets/command-icon.png",
+    "sha256": "5d2e2c18827fc67fa583feddde2b057bb9b3c4e6c52ad916a3fc5fdfa3c5967f",
+    "bytes": 29981
+  },
+  {
+    "path": "links-list-empty.png",
+    "url": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/bitly-url-shortener/assets/links-list-empty.png",
+    "sha256": "d1d126a2f7c5aaebde3ea525382a983b2aa56bd5a74922edc024e7abf942106b",
+    "bytes": 72661
+  },
+  {
+    "path": "links-filter-empty-state.png",
+    "url": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/bitly-url-shortener/assets/links-filter-empty-state.png",
+    "sha256": "c2e5174a96f4aa9898a27a7ac6d6a24217d6ff6239e7d623da1b30e7c5fc4369",
+    "bytes": 9557
+  },
+  {
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/LICENSE",
+    "sha256": "7f727f8b20cdd0e65f84e70b9cac2fce337dcecee4dc88955eb012ea27f02755",
+    "bytes": 1064
+  },
+  {
+    "path": "extensions/bitly-url-shortener/package.json",
+    "url": "https://raw.githubusercontent.com/raycast/extensions/6734d85992290066fd31a7f5bee3cca3d3545a1a/extensions/bitly-url-shortener/package.json",
+    "sha256": "dde95c8ce1a643fa0976bc274d3eb071a3adaba179c7ca37e402db3d56a6194b",
+    "bytes": 2455
+  }
+]

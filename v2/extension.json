@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 3,
+  "id": "com.tezbar.native.bitly-url-shortener",
+  "slug": "bitly-url-shortener",
+  "name": "Bitly URL Shortener",
+  "description": "Quickly shorten the selected URL or current clipboard URL with Bitly",
+  "version": "0.1.0",
+  "runtime": "rust",
+  "execution": "process",
+  "protocolVersion": 1,
+  "repository": "https://github.com/almatkai/bitly-url-shortener",
+  "icon": "resources/command-icon.png",
+  "author": "almatkai",
+  "platforms": [
+    "macOS",
+    "Windows"
+  ],
+  "replaces": [
+    "com.tezbar.bitly-url-shortener",
+    "raycast.bitly-url-shortener"
+  ],
+  "preferences": [
+    {
+      "name": "accessToken",
+      "type": "password",
+      "required": true,
+      "title": "Access Token",
+      "description": "Your Bitly access token.",
+      "placeholder": "Can be found at https://app.bitly.com/settings/api"
+    },
+    {
+      "name": "pasteAfterShortening",
+      "type": "checkbox",
+      "required": false,
+      "default": false,
+      "label": "Automatically paste shortened URL",
+      "description": "Automatically paste the shortened URL after shortening it."
+    }
+  ],
+  "commands": [
+    {
+      "name": "index",
+      "title": "Shorten URL",
+      "subtitle": "Bitly",
+      "description": "Overwrite the clipboard contents with a shortened URL",
+      "mode": "no-view",
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "timeoutMs": 45000,
+      "refreshMs": null
+    },
+    {
+      "name": "list-links",
+      "title": "List Links",
+      "subtitle": "Bitly",
+      "description": "List all the links you have shortened with Bitly",
+      "mode": "view",
+      "preferences": [
+        {
+          "name": "group_guid",
+          "type": "textfield",
+          "required": true,
+          "title": "Group GUID",
+          "description": "Your Bitly group GUID",
+          "placeholder": "Oa1bcd234eF"
+        }
+      ],
+      "platforms": [
+        "macOS",
+        "Windows"
+      ],
+      "runtime": "rust",
+      "concurrency": "serialize",
+      "timeoutMs": 45000,
+      "refreshMs": null
+    }
+  ],
+  "capabilities": [
+    "selection.read",
+    "clipboard.read",
+    "clipboard.write",
+    "clipboard.pasteText",
+    "shell.open",
+    "settings.open"
+  ],
+  "artifacts": {},
+  "verification": [
+    {
+      "platform": "macOS",
+      "state": "not-run",
+      "note": "Real desktop acceptance has not run; isolated process QA is separate."
+    },
+    {
+      "platform": "Windows",
+      "state": "not-run",
+      "note": "Real desktop acceptance has not run; isolated process QA is separate."
+    }
+  ]
+}

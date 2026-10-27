@@ -1,0 +1,293 @@
+{
+  "source": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+  "host": "ea100cee3f69711de12485ba061950c5fc65258f",
+  "sdk": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+  "upstream": "6734d85992290066fd31a7f5bee3cca3d3545a1a",
+  "xerj": {
+    "rootPrefix": "ax-25df427a57d1",
+    "generation": 1,
+    "indexedSourceFiles": 8,
+    "expectedSourceFiles": 8,
+    "records": 88,
+    "exit": 3,
+    "skippedNonCodeFiles": 4,
+    "coverage": "initial source coverage complete; post-implementation search status recorded separately in QA.md"
+  },
+  "objects": [
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "schemas/extension-v3.schema.json",
+      "snapshot": "evidence/host/extension-v3.schema.json",
+      "sha256": "6f42f0316aa88097703496e828b11afcc7caecf8477fa7502df903c3ad2a8048",
+      "gitBlob": "d22369213af9f6e7d8e2b40eae9ca5f2091dc742"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src/main/extension-registry.ts",
+      "snapshot": "evidence/host/extension-registry.ts",
+      "sha256": "813e5403af45b018c73c5682f20cd6ab28d1299a435618c4f8cda6c77f791deb",
+      "gitBlob": "8fb4b40eb86248d42f9e359049e10c44fa765183"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src/renderer/ExtensionRuntimeView.tsx",
+      "snapshot": "evidence/host/ExtensionRuntimeView.tsx",
+      "sha256": "c8378d1a1cc91cf622f81dc1bd88ed986ea2e9c396f7ff497e649171f573c5e8",
+      "gitBlob": "e43a39425078b1c14c25981a9bae02a43b5749ac"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src/renderer/src/raycast-api/detail-runtime.tsx",
+      "snapshot": "evidence/host/detail-runtime.tsx",
+      "sha256": "32eecb50891e0f282bd3d78d8a38193ec24540bf70c3fdc8e43a1d368c97d54c",
+      "gitBlob": "219517c635d708fef6e50b2a7be05146f75e5ea7"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src/renderer/src/raycast-api/list-runtime.tsx",
+      "snapshot": "evidence/host/list-runtime.tsx",
+      "sha256": "c7e253c34ce6e0a5132cab96bf1f0388393faca79ff57c3fdc7956f377a0ab0f",
+      "gitBlob": "5466c70489fd9dc2ae73118bc637ef98cf106487"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src/renderer/ui/Markdown.tsx",
+      "snapshot": "evidence/host/Markdown.tsx",
+      "sha256": "d205312b35293a433d5398e4edf1dcc96662cacd34036e8ee3ec503f65eee2de",
+      "gitBlob": "8841268595775dcfe4b739a7d54de601f191f748"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src/renderer/extensionImages.ts",
+      "snapshot": "evidence/host/extensionImages.ts",
+      "sha256": "053b98b523ed3ae06957d5eb84b0c4243db5ef4725614580e498ead7c53a518a",
+      "gitBlob": "b257a30af275cf69b445c7fd4a1bab38da215531"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src-tauri/src/native_core/extensions/registry.rs",
+      "snapshot": "evidence/host/registry.rs",
+      "sha256": "05dd5d9c5fafbac3034e9ba5e101e345a5d3bb658a49d22696e59ea924530e66",
+      "gitBlob": "0ae0827f90fb337eb5fd00e1d596c1452915bc03"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src-tauri/src/native_core/extensions/native.rs",
+      "snapshot": "evidence/host/native.rs",
+      "sha256": "f11d1f436fa5f9b045a7ac25f3516adb0efc6d4c12ce1f0f0c4768940fafe16f",
+      "gitBlob": "4b964adf432e6245abfd9e1cd69c0f523d4cf4e9"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src-tauri/src/native_core/extensions/process.rs",
+      "snapshot": "evidence/host/process.rs",
+      "sha256": "eb51da47a912c2a364eff16874b584ee0a2a4b571968ac17fd5056715a2c3d18",
+      "gitBlob": "080182e14d9c211dd6d1a29358b499d83ec146d8"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src-tauri/src/native_core/extensions/process_host.rs",
+      "snapshot": "evidence/host/process_host.rs",
+      "sha256": "daf45815d76762323c6c1320c88ed24dfe28160a60bb4974b8073e3f17a3b982",
+      "gitBlob": "707ee4c60ed2dc02ce016f19afa4f61d8ac0b011"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src-tauri/src/native_core/extensions/process_install.rs",
+      "snapshot": "evidence/host/process_install.rs",
+      "sha256": "1fc130d58703f80db0c5255d31a1e31b9f4e1a67876f98f86ceae7ede6363ee7",
+      "gitBlob": "40790a4d63ba7c856c0b15d313536941a2b2bb5f"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src-tauri/src/native_core/extensions/v2_runtime.rs",
+      "snapshot": "evidence/host/v2_runtime.rs",
+      "sha256": "537aeb67c9a7ad052c348d6c4fe09b19027854d07e912a432d36bc14896fc392",
+      "gitBlob": "3509b25c15cae5dd8562aa2096e97e908db6baa8"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src-tauri/src/native_core/extensions/v2_catalog.json",
+      "snapshot": "evidence/host/v2_catalog.json",
+      "sha256": "13eab282b6c4ce2f7f76b614288544ca328cb70020c9d5bcbbd82b3b10efbc05",
+      "gitBlob": "604f2322fa6bab4bb3426e204af1d0c69ae81066"
+    },
+    {
+      "repo": "host",
+      "pin": "ea100cee3f69711de12485ba061950c5fc65258f",
+      "path": "src-tauri/src/native_core/extensions/loved_extensions.json",
+      "snapshot": "evidence/host/loved_extensions.json",
+      "sha256": "f30e521b2c1b196301d81502478732d506a50ed975a54f179ed077a687ca5537",
+      "gitBlob": "5404afe29f8c9c0b89f94f45341aebdb2eabd530"
+    },
+    {
+      "repo": "sdk",
+      "pin": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+      "path": "SDK_API.md",
+      "snapshot": "evidence/SDK-SDK_API.md",
+      "sha256": "73945c65d763a82ee1bd64b2f30418f8aaec2e75966d71d7b774e7f7e40f098e"
+    },
+    {
+      "repo": "sdk",
+      "pin": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+      "path": "PROTOCOL.md",
+      "snapshot": "evidence/SDK-PROTOCOL.md",
+      "sha256": "0bc474c2e79e6e3f46ad2d577f83144ad69bd87cb17b74600a17178bcc257371"
+    },
+    {
+      "repo": "sdk",
+      "pin": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+      "path": "HOST_INTEGRATION.md",
+      "snapshot": "evidence/SDK-HOST_INTEGRATION.md",
+      "sha256": "88e6ca0c1090bcdf5d5501583e52e3eb7b0a369f4fea17ce4b01616c2f69d9a8"
+    },
+    {
+      "repo": "sdk",
+      "pin": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+      "path": "LICENSE",
+      "snapshot": "evidence/SDK-LICENSE",
+      "sha256": "0ed6b1b2760294d4aaaa45be38e166fcc0168e1dd5190423c096fcbe1c94afbf"
+    },
+    {
+      "repo": "sdk",
+      "pin": "e955911f0bf5b558f9d3eb5183df0adc95c22af2",
+      "path": "Cargo.toml",
+      "snapshot": "evidence/SDK-Cargo.toml",
+      "sha256": "f3f6c5a49f92dced2ff7b8ea9c5942d826a8a6c3cdade67f62003ded86b506dd"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": ".gitignore",
+      "sha256": "b027adcbb6131ef49be335e9a699657351ca3d5bb2b474379634d1714f5a585b"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": ".prettierrc",
+      "sha256": "af858765de11954366be23467b95bae5e1a86818411c6723df7542cea9ffd521"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "CHANGELOG.md",
+      "sha256": "606aef2598904744580a4552090ff5748726ad5e447490c68f316477dd7f5bcb"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "LICENSE",
+      "sha256": "1d7dbdbcd4fe14dfa08334fab20bffad23c1290f195792a3a4420dadf9912f81"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "README.md",
+      "sha256": "3383fd59ef15f5bfdb760d7e3cdddf3055cae1801edacb66adf7cd3774564af0"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "assets/command-icon.png",
+      "sha256": "5d2e2c18827fc67fa583feddde2b057bb9b3c4e6c52ad916a3fc5fdfa3c5967f"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "assets/links-filter-empty-state.png",
+      "sha256": "c2e5174a96f4aa9898a27a7ac6d6a24217d6ff6239e7d623da1b30e7c5fc4369"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "assets/links-list-empty.png",
+      "sha256": "d1d126a2f7c5aaebde3ea525382a983b2aa56bd5a74922edc024e7abf942106b"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "eslint.config.js",
+      "sha256": "ee5c9d0b4a4ad216ab018ae100e4cdea8bb620d554377a062c989ece90a8683c"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "metadata/bitly-url-shortener-1.png",
+      "sha256": "534f43e5241461145d7f0996935b16fdf7f4f92d5e9c58cd3268e3497dc84da8"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "package-lock.json",
+      "sha256": "534113d13b8b9c3c4437594c69f2d042cf45ab3ff238d7b1ff92c06291c31616"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "package.json",
+      "sha256": "f1c03ead1a3eb14e690688dc13ca470888891286b1b047bbdd7596fc597e55ed"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "raycast-env.d.ts",
+      "sha256": "374d7f12299146a046e5f2c14059b8deb5db34fc8f445e05e833bce09d2c70e3"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "src/config.ts",
+      "sha256": "2888cf113c1be3812f5d67ecc0311b364f79d627e83278e5dd7dfe0dc6ea0ce6"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "src/index.tsx",
+      "sha256": "cdc42a630e749e93800f4bfa0ee9168bd6f20ead3333b3670c3c37baeea628a4"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "src/list-links.tsx",
+      "sha256": "51678f4d94d54e03f95a6271faef69bb38d5f1d4aa913ddcf35a39f2a72c210b"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "src/types.ts",
+      "sha256": "76a52d2ca8bb0300788cd8e7fff81b8796912d1268750e0c42c58541f03c2c57"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "src/utils.ts",
+      "sha256": "6b4139ef295a2e672c77b5cc459a13e55b417d28902efcc0a66582c2bc748471"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "test/smoke.test.ts",
+      "sha256": "7045d439b4fe9ba277402913eecdf588d2ab00527a5629aa22e65ced36fb1c58"
+    },
+    {
+      "repo": "source",
+      "pin": "d946df7d3643a05f2bb3fadd12edf0b8a3858598",
+      "path": "tsconfig.json",
+      "sha256": "7b3b5db2a7715ec27ec188a2e517c3879ce71287c0cf54aeff2524cff63d3905"
+    }
+  ]
+}

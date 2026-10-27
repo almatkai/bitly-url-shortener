@@ -1,0 +1,37 @@
+[package]
+name = "tezbar-bitly-url-shortener"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+autotests = false
+
+[dependencies]
+tezbar-extension-sdk = { git = "https://github.com/almatkai/tezbar-extension-sdk-rust.git", rev = "e955911f0bf5b558f9d3eb5183df0adc95c22af2", version = "=0.1.1" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "sync", "time", "io-util", "net", "process"] }
+reqwest = { version = "=0.12.12", default-features = false, features = ["json", "rustls-tls-webpki-roots"] }
+url = "=2.5.4"
+idna = "=1.0.3"
+idna_adapter = "=1.2.0"
+sha2 = "0.10"
+tempfile = "3"
+chrono = { version = "=0.4.39", default-features = false, features = ["std"] }
+
+[features]
+qa = []
+
+[[bin]]
+name = "bitly-url-shortener"
+path = "src/main.rs"
+
+[[bin]]
+name = "bitly-qa-fixture"
+path = "tests/fixture.rs"
+required-features = ["qa"]
+
+[[test]]
+name = "domain"
+path = "tests/domain.rs"
+required-features = ["qa"]

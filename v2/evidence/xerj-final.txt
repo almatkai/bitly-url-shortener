@@ -1,0 +1,18 @@
+Canonical prefix: ax-25df427a57d1
+Final autoindex exit: 1
+autoindex: 2 scan threads, 2 index workers, 4 pdf workers, --bulk-mb 8 [cores=15 ram_total_mib=24576 ram_available_mib=unknown safe_zone_mib=12288]
+autoindex: bulk HTTP request timeout: 300s
+xerj-bar [????????????????????????] pct unknown | walk | eta unknown
+xerj-progress phase=walk basis=none pct=unknown items=0/0 bytes=0/0 rate=unknown eta_s=unknown eta_quality=unknown since_progress_s=0.0 phase_elapsed_s=0.0 elapsed_s=0.0
+autoindex: 563 files (4 MB) under /Users/almat/Desktop/code/Tezbar APP/rust-extension-ports/bitly-url-shortener
+autoindex: ignore rules: skipped 3 files and pruned 4 directories (contents never walked, so not counted); 3 ignore files read
+autoindex: ignore rules:   hidden:dotfile — 3 files, 1 directory pruned
+autoindex: ignore rules:   v2/.gitignore:/dist/ — 1 directory pruned
+autoindex: ignore rules:   v2/.gitignore:/qa/ — 1 directory pruned
+autoindex: ignore rules:   v2/.gitignore:/target/ — 1 directory pruned
+xerj-progress phase=hash basis=bytes pct=0.0 items=0/563 bytes=0/4394167 rate=unknown eta_s=unknown eta_quality=unknown since_progress_s=0.0 phase_elapsed_s=0.0 elapsed_s=0.0
+xerj-progress phase=scan basis=bytes pct=0.0 items=0/272 bytes=0/2915262 rate=unknown eta_s=unknown eta_quality=unknown since_progress_s=0.0 phase_elapsed_s=0.0 elapsed_s=0.0
+xerj-done ok=false exit=1 reason=aborted wall=0.4s
+error: project retained file README.md: detected family changed from xml to txt-prose
+no match in ax-25df427a57d1-* for: Recovery Uncertain
+(index a relevant repo first: xerj autoindex <folder>)

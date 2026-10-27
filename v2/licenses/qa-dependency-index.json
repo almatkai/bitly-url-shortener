@@ -1,0 +1,2686 @@
+[
+  {
+    "scope": "v1",
+    "package": "@esbuild/darwin-arm64",
+    "version": "0.25.12",
+    "license": "MIT",
+    "integrity": "sha512-N3zl+lxHCifgIlcMUP5016ESkeQjLj/959RxxNYIthIg+CQHInujFuXeWbWMgnTo4cp5XVHqFPmpyu9J65C1Yg==",
+    "files": [],
+    "missingText": true
+  },
+  {
+    "scope": "v1",
+    "package": "@eslint-community/eslint-utils",
+    "version": "4.9.0",
+    "license": "MIT",
+    "integrity": "sha512-ayVFHdtZ+hsq1t2Dy24wCmGXGe4q9Gu3smhLYALJrr473ZH27MsnSL+LKUlimp4BWJqMDMLmPpx/Q9R3OAlL4g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint-community/eslint-utils/LICENSE",
+        "sha256": "fcf6eabf68ca96988a6b506b4fdc6cc32535d80eb2e11c79724af5ac6f50262b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@eslint-community/regexpp",
+    "version": "4.12.2",
+    "license": "MIT",
+    "integrity": "sha512-EriSTlt5OC9/7SXkRSCAhfSxxoSUgBm33OH+IkwbdpgoqsSsUg7y3uh+IICI/Qg4BBWr3U2i39RpmycbxMq4ew==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint-community/regexpp/LICENSE",
+        "sha256": "fcf6eabf68ca96988a6b506b4fdc6cc32535d80eb2e11c79724af5ac6f50262b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@eslint/config-array",
+    "version": "0.21.1",
+    "license": "Apache-2.0",
+    "integrity": "sha512-aw1gNayWpdI/jSYVgzN5pL0cfzU02GT3NBpeT/DXbx1/1x7ZKxFPd9bwrzygx/qiwIQiJ1sw/zD8qY/kRvlGHA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint/config-array/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "brace-expansion",
+    "version": "1.1.14",
+    "license": "MIT",
+    "integrity": "sha512-MWPGfDxnyzKU7rNOW9SP/c50vi3xrmrua/+6hfPbCS2ABNWfx24vPidzvC7krjU/RTo235sV776ymlsMtGKj8g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint/config-array/brace-expansion/LICENSE",
+        "sha256": "68f12f6e2c33688699249c01d8f9623c534da20aa71989c57b061b7bc1676d14"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "minimatch",
+    "version": "3.1.5",
+    "license": "ISC",
+    "integrity": "sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint/config-array/minimatch/LICENSE",
+        "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@eslint/config-helpers",
+    "version": "0.4.2",
+    "license": "Apache-2.0",
+    "integrity": "sha512-gBrxN88gOIf3R7ja5K9slwNayVcZgK6SOUORm2uBzTeIEfeVaIhOpCtTox3P6R7o2jLFwLFTLnC7kU/RGcYEgw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint/config-helpers/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@eslint/core",
+    "version": "0.17.0",
+    "license": "Apache-2.0",
+    "integrity": "sha512-yL/sLrpmtDaFEiUj1osRP4TI2MDz1AddJL+jZ7KSqvBuliN4xqYY54IfdN8qD8Toa6g1iloph1fxQNkjOxrrpQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint/core/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@eslint/eslintrc",
+    "version": "3.3.3",
+    "license": "MIT",
+    "integrity": "sha512-Kr+LPIUVKz2qkx1HAMH8q1q6azbqBAsXJUxBl/ODDuVPX45Z9DfwB8tPjTi6nNZ8BuM3nbJxC5zCAg5elnBUTQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint/eslintrc/LICENSE",
+        "sha256": "3b6be04f862a077a4b97929dbf247299360824d9365f8603c263769303ace18c"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "brace-expansion",
+    "version": "1.1.14",
+    "license": "MIT",
+    "integrity": "sha512-MWPGfDxnyzKU7rNOW9SP/c50vi3xrmrua/+6hfPbCS2ABNWfx24vPidzvC7krjU/RTo235sV776ymlsMtGKj8g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint/eslintrc/brace-expansion/LICENSE",
+        "sha256": "68f12f6e2c33688699249c01d8f9623c534da20aa71989c57b061b7bc1676d14"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "globals",
+    "version": "14.0.0",
+    "license": "MIT",
+    "integrity": "sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint/eslintrc/globals/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "minimatch",
+    "version": "3.1.5",
+    "license": "ISC",
+    "integrity": "sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint/eslintrc/minimatch/LICENSE",
+        "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@eslint/js",
+    "version": "9.39.2",
+    "license": "MIT",
+    "integrity": "sha512-q1mjIoW1VX4IvSocvM/vbTiveKC4k9eLrajNEuSsmjymSDEbpGddtpfOoN7YGAqBK3NG+uqo8ia4PDTt8buCYA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint/js/LICENSE",
+        "sha256": "3b6be04f862a077a4b97929dbf247299360824d9365f8603c263769303ace18c"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@eslint/object-schema",
+    "version": "2.1.7",
+    "license": "Apache-2.0",
+    "integrity": "sha512-VtAOaymWVfZcmZbp6E2mympDIHvyjXs/12LqWYjVw6qjrfF+VK+fyG33kChz3nnK+SU5/NeHOqrTEHS8sXO3OA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint/object-schema/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@eslint/plugin-kit",
+    "version": "0.4.1",
+    "license": "Apache-2.0",
+    "integrity": "sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@eslint/plugin-kit/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@humanfs/core",
+    "version": "0.19.1",
+    "license": "Apache-2.0",
+    "integrity": "sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@humanfs/core/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@humanfs/node",
+    "version": "0.16.7",
+    "license": "Apache-2.0",
+    "integrity": "sha512-/zUx+yOsIrG4Y43Eh2peDeKCxlRt/gET6aHfaKpuq267qXdYDFViVHfMaLyygZOnl0kGWxFIgsBy8QFuTLUXEQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@humanfs/node/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@humanwhocodes/module-importer",
+    "version": "1.0.1",
+    "license": "Apache-2.0",
+    "integrity": "sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@humanwhocodes/module-importer/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@humanwhocodes/retry",
+    "version": "0.4.3",
+    "license": "Apache-2.0",
+    "integrity": "sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@humanwhocodes/retry/LICENSE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/ansi",
+    "version": "1.0.2",
+    "license": "MIT",
+    "integrity": "sha512-S8qNSZiYzFd0wAcyG5AXCvUHC5Sr7xpZ9wZ2py9XR88jUz8wooStVx5M6dRzczbBWjic9NP7+rY0Xi7qqK/aMQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/ansi/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/checkbox",
+    "version": "4.3.2",
+    "license": "MIT",
+    "integrity": "sha512-VXukHf0RR1doGe6Sm4F0Em7SWYLTHSsbGfJdS9Ja2bX5/D5uwVOEjr07cncLROdBvmnvCATYEWlHqYmXv2IlQA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/checkbox/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/confirm",
+    "version": "5.1.21",
+    "license": "MIT",
+    "integrity": "sha512-KR8edRkIsUayMXV+o3Gv+q4jlhENF9nMYUZs9PA2HzrXeHI8M5uDag70U7RJn9yyiMZSbtF5/UexBtAVtZGSbQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/confirm/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/core",
+    "version": "10.3.2",
+    "license": "MIT",
+    "integrity": "sha512-43RTuEbfP8MbKzedNqBrlhhNKVwoK//vUFNW3Q3vZ88BLcrs4kYpGg+B2mm5p2K/HfygoCxuKwJJiv8PbGmE0A==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/core/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "wrap-ansi",
+    "version": "6.2.0",
+    "license": "MIT",
+    "integrity": "sha512-r6lPcBGxZXlIcymEu7InxDMhdW0KDxpLgoFLcguasxCaJ/SOIZwINatK9KY/tf+ZrlywOKU0UDj3ATXUBfxJXA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/core/wrap-ansi/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/editor",
+    "version": "4.2.23",
+    "license": "MIT",
+    "integrity": "sha512-aLSROkEwirotxZ1pBaP8tugXRFCxW94gwrQLxXfrZsKkfjOYC1aRvAZuhpJOb5cu4IBTJdsCigUlf2iCOu4ZDQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/editor/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/expand",
+    "version": "4.0.23",
+    "license": "MIT",
+    "integrity": "sha512-nRzdOyFYnpeYTTR2qFwEVmIWypzdAx/sIkCMeTNTcflFOovfqUk+HcFhQQVBftAh9gmGrpFj6QcGEqrDMDOiew==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/expand/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/external-editor",
+    "version": "1.0.3",
+    "license": "MIT",
+    "integrity": "sha512-RWbSrDiYmO4LbejWY7ttpxczuwQyZLBUyygsA9Nsv95hpzUWwnNTVQmAq3xuh7vNwCp07UTmE5i11XAEExx4RA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/external-editor/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/figures",
+    "version": "1.0.15",
+    "license": "MIT",
+    "integrity": "sha512-t2IEY+unGHOzAaVM5Xx6DEWKeXlDDcNPeDyUpsRc6CUhBfU3VQOEl+Vssh7VNp1dR8MdUJBWhuObjXCsVpjN5g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/figures/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/input",
+    "version": "4.3.1",
+    "license": "MIT",
+    "integrity": "sha512-kN0pAM4yPrLjJ1XJBjDxyfDduXOuQHrBB8aLDMueuwUGn+vNpF7Gq7TvyVxx8u4SHlFFj4trmj+a2cbpG4Jn1g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/input/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/number",
+    "version": "3.0.23",
+    "license": "MIT",
+    "integrity": "sha512-5Smv0OK7K0KUzUfYUXDXQc9jrf8OHo4ktlEayFlelCjwMXz0299Y8OrI+lj7i4gCBY15UObk76q0QtxjzFcFcg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/number/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/password",
+    "version": "4.0.23",
+    "license": "MIT",
+    "integrity": "sha512-zREJHjhT5vJBMZX/IUbyI9zVtVfOLiTO66MrF/3GFZYZ7T4YILW5MSkEYHceSii/KtRk+4i3RE7E1CUXA2jHcA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/password/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/prompts",
+    "version": "7.10.1",
+    "license": "MIT",
+    "integrity": "sha512-Dx/y9bCQcXLI5ooQ5KyvA4FTgeo2jYj/7plWfV5Ak5wDPKQZgudKez2ixyfz7tKXzcJciTxqLeK7R9HItwiByg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/prompts/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/rawlist",
+    "version": "4.1.11",
+    "license": "MIT",
+    "integrity": "sha512-+LLQB8XGr3I5LZN/GuAHo+GpDJegQwuPARLChlMICNdwW7OwV2izlCSCxN6cqpL0sMXmbKbFcItJgdQq5EBXTw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/rawlist/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/search",
+    "version": "3.2.2",
+    "license": "MIT",
+    "integrity": "sha512-p2bvRfENXCZdWF/U2BXvnSI9h+tuA8iNqtUKb9UWbmLYCRQxd8WkvwWvYn+3NgYaNwdUkHytJMGG4MMLucI1kA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/search/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/select",
+    "version": "4.4.2",
+    "license": "MIT",
+    "integrity": "sha512-l4xMuJo55MAe+N7Qr4rX90vypFwCajSakx59qe/tMaC1aEHWLyw68wF4o0A4SLAY4E0nd+Vt+EyskeDIqu1M6w==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/select/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@inquirer/type",
+    "version": "3.0.10",
+    "license": "MIT",
+    "integrity": "sha512-BvziSRxfz5Ov8ch0z/n3oijRSEcEsHnhggm4xFZe93DHcUCTlutlq9Ox4SVENAfcRD22UQq7T/atg9Wr3k09eA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@inquirer/type/LICENSE",
+        "sha256": "85aca0b12ce5ade4ff76e9cbbe7e0d5a4cdde979e3930727c272e1fa04b8cc23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@oclif/core",
+    "version": "4.8.0",
+    "license": "MIT",
+    "integrity": "sha512-jteNUQKgJHLHFbbz806aGZqf+RJJ7t4gwF4MYa8fCwCxQ8/klJNWc0MvaJiBebk7Mc+J39mdlsB4XraaCKznFw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@oclif/core/LICENSE",
+        "sha256": "a9de3c39f8286ab8fe4a82da6e6272b402704876116b6307b10d67c4a189a87b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@oclif/plugin-autocomplete",
+    "version": "3.2.39",
+    "license": "MIT",
+    "integrity": "sha512-OwAZNnSpuDjKyhAwoOJkFWxGswPFKBB4hpNIMsj6PUtbKwGBPmD+2wGGPgTsDioVwLmUELSb2bZ+1dxHfvXmvg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@oclif/plugin-autocomplete/LICENSE",
+        "sha256": "a9de3c39f8286ab8fe4a82da6e6272b402704876116b6307b10d67c4a189a87b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@oclif/plugin-help",
+    "version": "6.2.36",
+    "license": "MIT",
+    "integrity": "sha512-NBQIg5hEMhvdbi4mSrdqRGl5XJ0bqTAHq6vDCCCDXUcfVtdk3ZJbSxtRVWyVvo9E28vwqu6MZyHOJylevqcHbA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@oclif/plugin-help/LICENSE",
+        "sha256": "a9de3c39f8286ab8fe4a82da6e6272b402704876116b6307b10d67c4a189a87b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@oclif/plugin-not-found",
+    "version": "3.2.73",
+    "license": "MIT",
+    "integrity": "sha512-2bQieTGI9XNFe9hKmXQjJmHV5rZw+yn7Rud1+C5uLEo8GaT89KZbiLTJgL35tGILahy/cB6+WAs812wjw7TK6w==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@oclif/plugin-not-found/LICENSE",
+        "sha256": "a9de3c39f8286ab8fe4a82da6e6272b402704876116b6307b10d67c4a189a87b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@raycast/api",
+    "version": "1.104.1",
+    "license": "MIT",
+    "integrity": "sha512-5v52JDzAAoCA6/JOoBfsgCXK4fzIY02lvMH0IA3ghuxZuk8i2ID2rtPkTuIAbebpkILADB7gP4yaBphkMLiCJA==",
+    "files": [],
+    "missingText": true
+  },
+  {
+    "scope": "v1",
+    "package": "@types/node",
+    "version": "22.13.10",
+    "license": "MIT",
+    "integrity": "sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@raycast/api/@types/node/LICENSE",
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "undici-types",
+    "version": "6.20.0",
+    "license": "MIT",
+    "integrity": "sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@raycast/api/undici-types/LICENSE",
+        "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@raycast/eslint-config",
+    "version": "2.1.1",
+    "license": "MIT",
+    "integrity": "sha512-W0kxF+FJ+BYQn0EKIV739j2ZrHEtjo/LclsoZgUWg3t364Dq75XKcjqYFYx+59/DBaamY0amdajlfuDAf6veAg==",
+    "files": [],
+    "missingText": true
+  },
+  {
+    "scope": "v1",
+    "package": "@raycast/eslint-plugin",
+    "version": "2.1.1",
+    "license": "MIT",
+    "integrity": "sha512-r2gs8uIlNp6I2mLOyN/kReGlvigzEeuyQPl4yw7nwLy8Zxjfjhg8txMViaBux8juBWBxbSWq/IfW6ZA50oeOHQ==",
+    "files": [],
+    "missingText": true
+  },
+  {
+    "scope": "v1",
+    "package": "@raycast/utils",
+    "version": "2.2.2",
+    "license": "MIT",
+    "integrity": "sha512-tZcyWCHZvz4L/i1CGEnSZkBoK6wwX1pzlTKjcWWugbrQyG0QCMOxjKJfRC/iNkD+hHaqhMWUj4Y0LNo/NknvFw==",
+    "files": [],
+    "missingText": true
+  },
+  {
+    "scope": "v1",
+    "package": "@types/estree",
+    "version": "1.0.8",
+    "license": "MIT",
+    "integrity": "sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@types/estree/LICENSE",
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@types/json-schema",
+    "version": "7.0.15",
+    "license": "MIT",
+    "integrity": "sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@types/json-schema/LICENSE",
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@types/node",
+    "version": "24.13.3",
+    "license": "MIT",
+    "integrity": "sha512-Dh8vAsV36ig5wa9OX4pXvMc9D3Veibfw2wix0CUwYODLD8nkj9UsLjASr49nPg+2eKzxhBV+v7L8pXvT4e639Q==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@types/node/LICENSE",
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@types/react",
+    "version": "19.0.10",
+    "license": "MIT",
+    "integrity": "sha512-JuRQ9KXLEjaUNjTWpzuR231Z2WpIwczOkBEIvbHNCzQefFIT0L8IqE6NV6ULLyC1SI/i234JnDoMkfg+RjQj2g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@types/react/LICENSE",
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@typescript-eslint/eslint-plugin",
+    "version": "8.50.1",
+    "license": "MIT",
+    "integrity": "sha512-PKhLGDq3JAg0Jk/aK890knnqduuI/Qj+udH7wCf0217IGi4gt+acgCyPVe79qoT+qKUvHMDQkwJeKW9fwl8Cyw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@typescript-eslint/eslint-plugin/LICENSE",
+        "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "ignore",
+    "version": "7.0.5",
+    "license": "MIT",
+    "integrity": "sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@typescript-eslint/eslint-plugin/ignore/LICENSE-MIT",
+        "sha256": "9c94db23dc4b1e9aaee5d195668b916afc71efed54af226b66cf0ccc4389c1c0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@typescript-eslint/parser",
+    "version": "8.50.1",
+    "license": "MIT",
+    "integrity": "sha512-hM5faZwg7aVNa819m/5r7D0h0c9yC4DUlWAOvHAtISdFTc8xB86VmX5Xqabrama3wIPJ/q9RbGS1worb6JfnMg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@typescript-eslint/parser/LICENSE",
+        "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@typescript-eslint/project-service",
+    "version": "8.50.1",
+    "license": "MIT",
+    "integrity": "sha512-E1ur1MCVf+YiP89+o4Les/oBAVzmSbeRB0MQLfSlYtbWU17HPxZ6Bhs5iYmKZRALvEuBoXIZMOIRRc/P++Ortg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@typescript-eslint/project-service/LICENSE",
+        "sha256": "053a75a14b7508a897466b65e12797201a06b0e9b5066d1223da72cac99601b5"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@typescript-eslint/scope-manager",
+    "version": "8.50.1",
+    "license": "MIT",
+    "integrity": "sha512-mfRx06Myt3T4vuoHaKi8ZWNTPdzKPNBhiblze5N50//TSHOAQQevl/aolqA/BcqqbJ88GUnLqjjcBc8EWdBcVw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@typescript-eslint/scope-manager/LICENSE",
+        "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@typescript-eslint/tsconfig-utils",
+    "version": "8.50.1",
+    "license": "MIT",
+    "integrity": "sha512-ooHmotT/lCWLXi55G4mvaUF60aJa012QzvLK0Y+Mp4WdSt17QhMhWOaBWeGTFVkb2gDgBe19Cxy1elPXylslDw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@typescript-eslint/tsconfig-utils/LICENSE",
+        "sha256": "053a75a14b7508a897466b65e12797201a06b0e9b5066d1223da72cac99601b5"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@typescript-eslint/type-utils",
+    "version": "8.50.1",
+    "license": "MIT",
+    "integrity": "sha512-7J3bf022QZE42tYMO6SL+6lTPKFk/WphhRPe9Tw/el+cEwzLz1Jjz2PX3GtGQVxooLDKeMVmMt7fWpYRdG5Etg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@typescript-eslint/type-utils/LICENSE",
+        "sha256": "f3c51ace7f159b21566d72535e84ff354505ae7ffdca835dac81fcdafbf9e879"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@typescript-eslint/types",
+    "version": "8.50.1",
+    "license": "MIT",
+    "integrity": "sha512-v5lFIS2feTkNyMhd7AucE/9j/4V9v5iIbpVRncjk/K0sQ6Sb+Np9fgYS/63n6nwqahHQvbmujeBL7mp07Q9mlA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@typescript-eslint/types/LICENSE",
+        "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@typescript-eslint/typescript-estree",
+    "version": "8.50.1",
+    "license": "MIT",
+    "integrity": "sha512-woHPdW+0gj53aM+cxchymJCrh0cyS7BTIdcDxWUNsclr9VDkOSbqC13juHzxOmQ22dDkMZEpZB+3X1WpUvzgVQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@typescript-eslint/typescript-estree/LICENSE",
+        "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@typescript-eslint/utils",
+    "version": "8.50.1",
+    "license": "MIT",
+    "integrity": "sha512-lCLp8H1T9T7gPbEuJSnHwnSuO9mDf8mfK/Nion5mZmiEaQD9sWf9W4dfeFqRyqRjF06/kBuTmAqcs9sewM2NbQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@typescript-eslint/utils/LICENSE",
+        "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@typescript-eslint/visitor-keys",
+    "version": "8.50.1",
+    "license": "MIT",
+    "integrity": "sha512-IrDKrw7pCRUR94zeuCSUWQ+w8JEf5ZX5jl/e6AHGSLi1/zIr0lgutfn/7JpfCey+urpgQEdrZVYzCaVVKiTwhQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@typescript-eslint/visitor-keys/LICENSE",
+        "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "eslint-visitor-keys",
+    "version": "4.2.1",
+    "license": "Apache-2.0",
+    "integrity": "sha512-Uhdk5sfqcee/9H/rCOJikYz67o0a2Tw2hGRPOG2Y1R2dg7brRe1uG0yaNQDHu+TO/uQPF/5eCapvYSmHUjt7JQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/@typescript-eslint/visitor-keys/eslint-visitor-keys/LICENSE",
+        "sha256": "d8bf34ff6d190640a01e7704ad78253fc181bc128949d71273fbbaa12f33c0b4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "acorn",
+    "version": "8.15.0",
+    "license": "MIT",
+    "integrity": "sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/acorn/LICENSE",
+        "sha256": "76a876cf886ff9be2a8b5e2e86514fed06223c8c9f0c1e9ee9606e93841e00b7"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "acorn-jsx",
+    "version": "5.3.2",
+    "license": "MIT",
+    "integrity": "sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/acorn-jsx/LICENSE",
+        "sha256": "cfa72b62b9ae173078823a3796b25c027a9071046a263beddf966df67018ce06"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "ajv",
+    "version": "6.15.0",
+    "license": "MIT",
+    "integrity": "sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/ajv/LICENSE",
+        "sha256": "e85e131fa4ed25538ff1f4962ced1fb6f68b079bd9164a790597a0f30b8fd030"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "ansi-escapes",
+    "version": "4.3.2",
+    "license": "MIT",
+    "integrity": "sha512-gKXj5ALrKWQLsYG9jlTRmR/xKluxHV+Z9QEwNIgCfM1/uwPMCuzVVnh5mwTd+OuBZcwSIMbqssNWRm1lE51QaQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/ansi-escapes/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "ansi-regex",
+    "version": "5.0.1",
+    "license": "MIT",
+    "integrity": "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/ansi-regex/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "ansi-styles",
+    "version": "4.3.0",
+    "license": "MIT",
+    "integrity": "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/ansi-styles/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "ansis",
+    "version": "3.17.0",
+    "license": "ISC",
+    "integrity": "sha512-0qWUglt9JEqLFr3w1I1pbrChn1grhaiAR2ocX1PP/flRmxgtwTzPFFFnfIlD6aMOLQZgSuCRlidD70lvx8yhzg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/ansis/LICENSE",
+        "sha256": "87ec186ac7438102db7ee5dae084510a81277ef631235c7712639c146c554737"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "argparse",
+    "version": "2.0.1",
+    "license": "Python-2.0",
+    "integrity": "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/argparse/LICENSE",
+        "sha256": "de4d1f2d2ad5ad0cfd1657a106476b31cb5db5ef9d1ff842b237c0c81f0c8a23"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "async",
+    "version": "3.2.6",
+    "license": "MIT",
+    "integrity": "sha512-htCUDlxyyCLMgaM3xXg0C0LW2xqfuQ6p05pCEIsXuyQ+a1koYKTuBMzRNwmybfLgvJDMd0r1LTn4+E0Ti6C2AA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/async/LICENSE",
+        "sha256": "d9fed24f132985934fca621c4dc1dfb53e03377a24d0568d424383d7eaa9c0ac"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "balanced-match",
+    "version": "1.0.2",
+    "license": "MIT",
+    "integrity": "sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/balanced-match/LICENSE.md",
+        "sha256": "a1bd5deadb6a06dd74efa852c1b8b23f63b67f2214fbe9c8bd591da51da69268"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "brace-expansion",
+    "version": "2.1.0",
+    "license": "MIT",
+    "integrity": "sha512-TN1kCZAgdgweJhWWpgKYrQaMNHcDULHkWwQIspdtjV4Y5aurRdZpjAqn6yX3FPqTA9ngHCc4hJxMAMgGfve85w==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/brace-expansion/LICENSE",
+        "sha256": "68f12f6e2c33688699249c01d8f9623c534da20aa71989c57b061b7bc1676d14"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "callsites",
+    "version": "3.1.0",
+    "license": "MIT",
+    "integrity": "sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/callsites/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "chalk",
+    "version": "4.1.2",
+    "license": "MIT",
+    "integrity": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/chalk/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "supports-color",
+    "version": "7.2.0",
+    "license": "MIT",
+    "integrity": "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/chalk/supports-color/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "chardet",
+    "version": "2.1.1",
+    "license": "MIT",
+    "integrity": "sha512-PsezH1rqdV9VvyNhxxOW32/d75r01NY7TQCmOqomRo15ZSOKbpTFVsfjghxo6JloQUCGnH4k1LGu0R4yCLlWQQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/chardet/LICENSE",
+        "sha256": "04c53d57d2262d584caa8403251095d51df02146aa4628b6c01e63753bc64b3d"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "clean-stack",
+    "version": "3.0.1",
+    "license": "MIT",
+    "integrity": "sha512-lR9wNiMRcVQjSB3a7xXGLuz4cr4wJuuXlaAEbRutGowQTmlp7R72/DOgN21e8jdwblMWl9UOJMJXarX94pzKdg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/clean-stack/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "cli-spinners",
+    "version": "2.9.2",
+    "license": "MIT",
+    "integrity": "sha512-ywqV+5MmyL4E7ybXgKys4DugZbX0FC6LnwrhjuykIjnK9k8OQacQ7axGKnjDXWNhns0xot3bZI5h55H8yo9cJg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/cli-spinners/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "cli-width",
+    "version": "4.1.0",
+    "license": "ISC",
+    "integrity": "sha512-ouuZd4/dm2Sw5Gmqy6bGyNNNe1qt9RpmxveLSO7KcgsTnU7RXfsw+/bukWGo1abgBiMAic068rclZsO4IWmmxQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/cli-width/LICENSE",
+        "sha256": "31493c14dc0b4eb1e06fe5d4bab3ca4e3b40f8749433455c713863238600cf1a"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "color-convert",
+    "version": "2.0.1",
+    "license": "MIT",
+    "integrity": "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/color-convert/LICENSE",
+        "sha256": "693866fc419c6f61c8570438ec00659d156ec2b4d4a4d04091711f5f11a365d4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "color-name",
+    "version": "1.1.4",
+    "license": "MIT",
+    "integrity": "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/color-name/LICENSE",
+        "sha256": "c064f7a3e353bc1bc977f3c897941c75ef763f44f41677e0a15370ca0853d6e2"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "concat-map",
+    "version": "0.0.1",
+    "license": "MIT",
+    "integrity": "sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/concat-map/LICENSE",
+        "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "cross-spawn",
+    "version": "7.0.6",
+    "license": "MIT",
+    "integrity": "sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/cross-spawn/LICENSE",
+        "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "csstype",
+    "version": "3.2.3",
+    "license": "MIT",
+    "integrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/csstype/LICENSE",
+        "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "debug",
+    "version": "4.4.3",
+    "license": "MIT",
+    "integrity": "sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/debug/LICENSE",
+        "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "deep-is",
+    "version": "0.1.4",
+    "license": "MIT",
+    "integrity": "sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/deep-is/LICENSE",
+        "sha256": "f2042f3634c4136d06b5139c9c6aefb81a3a462b514548bc1845953233dfba98"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "dequal",
+    "version": "2.0.3",
+    "license": "MIT",
+    "integrity": "sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/dequal/license",
+        "sha256": "306fa513e39b23a6e8747520de761809d206b99800ef41907b530226574c59ae"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "ejs",
+    "version": "3.1.10",
+    "license": "Apache-2.0",
+    "integrity": "sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/ejs/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "emoji-regex",
+    "version": "8.0.0",
+    "license": "MIT",
+    "integrity": "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/emoji-regex/LICENSE-MIT.txt",
+        "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "esbuild",
+    "version": "0.25.12",
+    "license": "MIT",
+    "integrity": "sha512-bbPBYYrtZbkt6Os6FiTLCTFxvq4tt3JKall1vRwshA3fdVztsLAatFaZobhkBC8/BrPetoa0oksYoKXoG4ryJg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/esbuild/LICENSE.md",
+        "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "escape-string-regexp",
+    "version": "4.0.0",
+    "license": "MIT",
+    "integrity": "sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/escape-string-regexp/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "eslint",
+    "version": "9.39.2",
+    "license": "MIT",
+    "integrity": "sha512-LEyamqS7W5HB3ujJyvi0HQK/dtVINZvd5mAAp9eT5S/ujByGjiZLCzPcHVzuXbpJDJF/cxwHlfceVUDZ2lnSTw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/eslint/LICENSE",
+        "sha256": "3b6be04f862a077a4b97929dbf247299360824d9365f8603c263769303ace18c"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "eslint-config-prettier",
+    "version": "10.1.8",
+    "license": "MIT",
+    "integrity": "sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/eslint-config-prettier/LICENSE",
+        "sha256": "607754a0e9fd71662876ce4f41b9a2519b4fd83c7524f60834405ed74f390fce"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "eslint-scope",
+    "version": "8.4.0",
+    "license": "BSD-2-Clause",
+    "integrity": "sha512-sNXOfKCn74rt8RICKMvJS7XKV/Xk9kA7DyJr8mJik3S7Cwgy3qlkkmyS2uQB3jiJg6VNdZd/pDBJu0nvG2NlTg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/eslint-scope/LICENSE",
+        "sha256": "d3a724e2ed749f172ff70b62a1d0631b7d4b0ea273782365a3464d4e2d6b6dbd"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "eslint-visitor-keys",
+    "version": "3.4.3",
+    "license": "Apache-2.0",
+    "integrity": "sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/eslint-visitor-keys/LICENSE",
+        "sha256": "d8bf34ff6d190640a01e7704ad78253fc181bc128949d71273fbbaa12f33c0b4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "brace-expansion",
+    "version": "1.1.14",
+    "license": "MIT",
+    "integrity": "sha512-MWPGfDxnyzKU7rNOW9SP/c50vi3xrmrua/+6hfPbCS2ABNWfx24vPidzvC7krjU/RTo235sV776ymlsMtGKj8g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/eslint/brace-expansion/LICENSE",
+        "sha256": "68f12f6e2c33688699249c01d8f9623c534da20aa71989c57b061b7bc1676d14"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "eslint-visitor-keys",
+    "version": "4.2.1",
+    "license": "Apache-2.0",
+    "integrity": "sha512-Uhdk5sfqcee/9H/rCOJikYz67o0a2Tw2hGRPOG2Y1R2dg7brRe1uG0yaNQDHu+TO/uQPF/5eCapvYSmHUjt7JQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/eslint/eslint-visitor-keys/LICENSE",
+        "sha256": "d8bf34ff6d190640a01e7704ad78253fc181bc128949d71273fbbaa12f33c0b4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "minimatch",
+    "version": "3.1.5",
+    "license": "ISC",
+    "integrity": "sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/eslint/minimatch/LICENSE",
+        "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "espree",
+    "version": "10.4.0",
+    "license": "BSD-2-Clause",
+    "integrity": "sha512-j6PAQ2uUr79PZhBjP5C5fhl8e39FmRnOjsD5lGnWrFU8i2G776tBK7+nP8KuQUTTyAZUwfQqXAgrVH5MbH9CYQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/espree/LICENSE",
+        "sha256": "26c95937762a3dc17a3934a0a2773c70259ba4bf28dab713c225e4af8eb9d349"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "eslint-visitor-keys",
+    "version": "4.2.1",
+    "license": "Apache-2.0",
+    "integrity": "sha512-Uhdk5sfqcee/9H/rCOJikYz67o0a2Tw2hGRPOG2Y1R2dg7brRe1uG0yaNQDHu+TO/uQPF/5eCapvYSmHUjt7JQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/espree/eslint-visitor-keys/LICENSE",
+        "sha256": "d8bf34ff6d190640a01e7704ad78253fc181bc128949d71273fbbaa12f33c0b4"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "esquery",
+    "version": "1.6.0",
+    "license": "BSD-3-Clause",
+    "integrity": "sha512-ca9pw9fomFcKPvFLXhBKUK90ZvGibiGOvRJNbjljY7s7uq/5YO4BOzcYtJqExdx99rF6aAcnRxHmcUHcz6sQsg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/esquery/license.txt",
+        "sha256": "ac68116ae73740de4190892f334992e449a124600924ec761e64319d3aac9e6e"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "esrecurse",
+    "version": "4.3.0",
+    "license": "BSD-2-Clause",
+    "integrity": "sha512-KmfKL3b6G+RXvP8N1vr3Tq1kL/oCFgn2NYXEtqP8/L3pKapUA4G8cFVaoF3SU323CD4XypR/ffioHmkti6/Tag==",
+    "files": [],
+    "missingText": true
+  },
+  {
+    "scope": "v1",
+    "package": "estraverse",
+    "version": "5.3.0",
+    "license": "BSD-2-Clause",
+    "integrity": "sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/estraverse/LICENSE.BSD",
+        "sha256": "0e74697a68cebdcd61502c30fe80ab7f9e341d995dcd452023654d57133534b1"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "esutils",
+    "version": "2.0.3",
+    "license": "BSD-2-Clause",
+    "integrity": "sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/esutils/LICENSE.BSD",
+        "sha256": "0e74697a68cebdcd61502c30fe80ab7f9e341d995dcd452023654d57133534b1"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "fast-deep-equal",
+    "version": "3.1.3",
+    "license": "MIT",
+    "integrity": "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/fast-deep-equal/LICENSE",
+        "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "fast-json-stable-stringify",
+    "version": "2.1.0",
+    "license": "MIT",
+    "integrity": "sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/fast-json-stable-stringify/LICENSE",
+        "sha256": "a833d366242c298cf1b10263516572fb8dcbe68eb5072cdcac2b4546e2b4eb36"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "fast-levenshtein",
+    "version": "3.0.0",
+    "license": "MIT",
+    "integrity": "sha512-hKKNajm46uNmTlhHSyZkmToAc56uZJwYq7yrciZjqOxnlfQwERDQJmHPUp7m1m9wx8vgOe8IaCKZ5Kv2k1DdCQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/fast-levenshtein/LICENSE.md",
+        "sha256": "942a98cb8846a6354266193f173c1354615827fbb7d67f68399599dff12c4d6a"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "fastest-levenshtein",
+    "version": "1.0.16",
+    "license": "MIT",
+    "integrity": "sha512-eRnCtTTtGZFpQCwhJiUOuxPQWRXVKYDn0b2PeHfXL6/Zi53SLAzAHfVhVWK2AryC/WH05kGfxhFIPvTF0SXQzg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/fastest-levenshtein/LICENSE.md",
+        "sha256": "b8baf91be313643f3e87a01da77704b68e12795184a62e51e537a5a43c2932f3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "fdir",
+    "version": "6.5.0",
+    "license": "MIT",
+    "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/fdir/LICENSE",
+        "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "file-entry-cache",
+    "version": "8.0.0",
+    "license": "MIT",
+    "integrity": "sha512-XXTUwCvisa5oacNGRP9SfNtYBNAMi+RPwBFmblZEF7N7swHYQS6/Zfk7SRwx4D5j3CH211YNRco1DEMNVfZCnQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/file-entry-cache/LICENSE",
+        "sha256": "a0e2f73971f663b49d3c66cc6749fc88de0f475680ccf5b980a9cbcc0c52490f"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "filelist",
+    "version": "1.0.4",
+    "license": "Apache-2.0",
+    "integrity": "sha512-w1cEuf3S+DrLCQL7ET6kz+gmlJdbq9J7yXCSjK/OZCPA+qEN1WyF4ZAf0YYJa4/shHJra2t/d/r8SV4Ji+x+8Q==",
+    "files": [],
+    "missingText": true
+  },
+  {
+    "scope": "v1",
+    "package": "minimatch",
+    "version": "5.1.9",
+    "license": "ISC",
+    "integrity": "sha512-7o1wEA2RyMP7Iu7GNba9vc0RWWGACJOCZBJX2GJWip0ikV+wcOsgVuY9uE8CPiyQhkGFSlhuSkZPavN7u1c2Fw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/filelist/minimatch/LICENSE",
+        "sha256": "d11323827fa4edeaafc437cc5b91b6971b335f0127efeeb42bf5122fe8657e8f"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "find-up",
+    "version": "5.0.0",
+    "license": "MIT",
+    "integrity": "sha512-78/PXT1wlLLDgTzDs7sjq9hzz0vXD+zn+7wypEe4fXQxCmdmqfGsEPQxmiCSQI3ajFV91bVSsvNtrJRiW6nGng==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/find-up/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "flat-cache",
+    "version": "4.0.1",
+    "license": "MIT",
+    "integrity": "sha512-f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/flat-cache/LICENSE",
+        "sha256": "a6a23fb76d91d98669f5ed6eb58213df594ab2d56c9e981ae021b194e3d662a7"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "flatted",
+    "version": "3.4.2",
+    "license": "ISC",
+    "integrity": "sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/flatted/LICENSE",
+        "sha256": "148718606d34f467fd08a2176bb4c1ab275f999576f779368503d8d3e3642861"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "fsevents",
+    "version": "2.3.3",
+    "license": "MIT",
+    "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/fsevents/LICENSE",
+        "sha256": "2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "get-package-type",
+    "version": "0.1.0",
+    "license": "MIT",
+    "integrity": "sha512-pjzuKtY64GYfWizNAJ0fr9VqttZkNiK2iS430LtIHzjBEr6bX8Am2zm4sW4Ro5wjWW5cAlRL1qAMTcXbjNAO2Q==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/get-package-type/LICENSE",
+        "sha256": "24a4cce7958e3905080069a18952f1f35796fcd861b4c5686047f0a33faa21ed"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "glob-parent",
+    "version": "6.0.2",
+    "license": "ISC",
+    "integrity": "sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/glob-parent/LICENSE",
+        "sha256": "fc68eb8f1c8e1d6b8be50f3c177927e24791cae7dc251e6253a012f37926a30c"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "globals",
+    "version": "16.5.0",
+    "license": "MIT",
+    "integrity": "sha512-c/c15i26VrJ4IRt5Z89DnIzCGDn9EcebibhAOjw5ibqEHsE1wLUgkPn9RDmNcUKyU87GeaL633nyJ+pplFR2ZQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/globals/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "has-flag",
+    "version": "4.0.0",
+    "license": "MIT",
+    "integrity": "sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/has-flag/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "iconv-lite",
+    "version": "0.7.1",
+    "license": "MIT",
+    "integrity": "sha512-2Tth85cXwGFHfvRgZWszZSvdo+0Xsqmw8k8ZwxScfcBneNUraK+dxRxRm24nszx80Y0TVio8kKLt5sLE7ZCLlw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/iconv-lite/LICENSE",
+        "sha256": "ac779f7314c74f232ef847ea86e714abe25cf6eeb5cc97b69451b74e2af6492d"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "ignore",
+    "version": "5.3.2",
+    "license": "MIT",
+    "integrity": "sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/ignore/LICENSE-MIT",
+        "sha256": "9c94db23dc4b1e9aaee5d195668b916afc71efed54af226b66cf0ccc4389c1c0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "import-fresh",
+    "version": "3.3.1",
+    "license": "MIT",
+    "integrity": "sha512-TR3KfrTZTYLPB6jUjfx6MF9WcWrHL9su5TObK4ZkYgBdWKPOFoSoQIdEuTuR82pmtxH2spWG9h6etwfr1pLBqQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/import-fresh/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "imurmurhash",
+    "version": "0.1.4",
+    "license": "MIT",
+    "integrity": "sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==",
+    "files": [],
+    "missingText": true
+  },
+  {
+    "scope": "v1",
+    "package": "indent-string",
+    "version": "4.0.0",
+    "license": "MIT",
+    "integrity": "sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/indent-string/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "is-docker",
+    "version": "2.2.1",
+    "license": "MIT",
+    "integrity": "sha512-F+i2BKsFrH66iaUFc0woD8sLy8getkwTwtOBjvs56Cx4CgJDeKQeqfz8wAYiSb8JOprWhHH5p77PbmYCvvUuXQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/is-docker/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "is-extglob",
+    "version": "2.1.1",
+    "license": "MIT",
+    "integrity": "sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/is-extglob/LICENSE",
+        "sha256": "73b5283588baa142c5baaef5f56d3e8fdea7a30b214e8c5737e87640f882453a"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "is-fullwidth-code-point",
+    "version": "3.0.0",
+    "license": "MIT",
+    "integrity": "sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/is-fullwidth-code-point/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "is-glob",
+    "version": "4.0.3",
+    "license": "MIT",
+    "integrity": "sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/is-glob/LICENSE",
+        "sha256": "4cd903859549d4b20b571041f96dfae1136ed079c476126268f9d7cc1b611150"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "is-wsl",
+    "version": "2.2.0",
+    "license": "MIT",
+    "integrity": "sha512-fKzAra0rGJUUBwGBgNkHZuToZcn+TtXHpeCgmkMJMMYx1sQDYaCSyjJBSCa2nH1DGm7s3n1oBnohoVTBaN7Lww==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/is-wsl/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "isexe",
+    "version": "2.0.0",
+    "license": "ISC",
+    "integrity": "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/isexe/LICENSE",
+        "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "jake",
+    "version": "10.9.4",
+    "license": "Apache-2.0",
+    "integrity": "sha512-wpHYzhxiVQL+IV05BLE2Xn34zW1S223hvjtqk0+gsPrwd/8JNLXJgZZM/iPFsYc1xyphF+6M6EvdE5E9MBGkDA==",
+    "files": [],
+    "missingText": true
+  },
+  {
+    "scope": "v1",
+    "package": "js-yaml",
+    "version": "4.1.1",
+    "license": "MIT",
+    "integrity": "sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/js-yaml/LICENSE",
+        "sha256": "a07bc24468b9654ce76a547d47a2db282d07733b715db4c73a98bd63961f9550"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "json-buffer",
+    "version": "3.0.1",
+    "license": "MIT",
+    "integrity": "sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/json-buffer/LICENSE",
+        "sha256": "715f1f0f2eb7688e53e4e958acdc7fc9e365ae3eaf26efc2604b93cc65fdc3f5"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "json-schema-traverse",
+    "version": "0.4.1",
+    "license": "MIT",
+    "integrity": "sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/json-schema-traverse/LICENSE",
+        "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "json-stable-stringify-without-jsonify",
+    "version": "1.0.1",
+    "license": "MIT",
+    "integrity": "sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/json-stable-stringify-without-jsonify/LICENSE",
+        "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "keyv",
+    "version": "4.5.4",
+    "license": "MIT",
+    "integrity": "sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==",
+    "files": [],
+    "missingText": true
+  },
+  {
+    "scope": "v1",
+    "package": "levn",
+    "version": "0.4.1",
+    "license": "MIT",
+    "integrity": "sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/levn/LICENSE",
+        "sha256": "b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "lilconfig",
+    "version": "3.1.3",
+    "license": "MIT",
+    "integrity": "sha512-/vlFKAoH5Cgt3Ie+JLhRbwOsCQePABiU3tJ1egGvyQ+33R/vcwM2Zl2QR/LzjsBeItPt3oSVXapn+m4nQDvpzw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/lilconfig/LICENSE",
+        "sha256": "d70f9e316930b4333b6f51af5f0d0cb7ded6a4a2641549aa088027aaff91e950"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "locate-path",
+    "version": "6.0.0",
+    "license": "MIT",
+    "integrity": "sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/locate-path/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "lodash.merge",
+    "version": "4.6.2",
+    "license": "MIT",
+    "integrity": "sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/lodash.merge/LICENSE",
+        "sha256": "f71e8ed126b46346494aad5486874cd8f0aafe95092ed67d2e3cb6110f939abc"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "minimatch",
+    "version": "9.0.9",
+    "license": "ISC",
+    "integrity": "sha512-OBwBN9AL4dqmETlpS2zasx+vTeWclWzkblfZk7KTA5j3jeOONz/tRCnZomUyvNg83wL5Zv9Ss6HMJXAgL8R2Yg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/minimatch/LICENSE",
+        "sha256": "d11323827fa4edeaafc437cc5b91b6971b335f0127efeeb42bf5122fe8657e8f"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "ms",
+    "version": "2.1.3",
+    "license": "MIT",
+    "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/ms/license.md",
+        "sha256": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "mute-stream",
+    "version": "2.0.0",
+    "license": "ISC",
+    "integrity": "sha512-WWdIxpyjEn+FhQJQQv9aQAYlHoNVdzIzUySNV1gHUPDSdZJ3yZn7pAAbQcV7B56Mvu881q9FZV+0Vx2xC44VWA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/mute-stream/LICENSE",
+        "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "natural-compare",
+    "version": "1.4.0",
+    "license": "MIT",
+    "integrity": "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==",
+    "files": [],
+    "missingText": true
+  },
+  {
+    "scope": "v1",
+    "package": "optionator",
+    "version": "0.9.4",
+    "license": "MIT",
+    "integrity": "sha512-6IpQ7mKUxRcZNLIObR0hz7lxsapSSIYNZJwXPGeF0mTVqGKFIXj1DQcMoT22S3ROcLyY/rz0PWaWZ9ayWmad9g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/optionator/LICENSE",
+        "sha256": "b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "fast-levenshtein",
+    "version": "2.0.6",
+    "license": "MIT",
+    "integrity": "sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/optionator/fast-levenshtein/LICENSE.md",
+        "sha256": "942a98cb8846a6354266193f173c1354615827fbb7d67f68399599dff12c4d6a"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "p-limit",
+    "version": "3.1.0",
+    "license": "MIT",
+    "integrity": "sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/p-limit/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "p-locate",
+    "version": "5.0.0",
+    "license": "MIT",
+    "integrity": "sha512-LaNjtRWUBY++zB5nE/NwcaoMylSPk+S+ZHNB1TzdbMJMny6dynpAGt7X/tl/QYq3TIeE6nxHppbo2LGymrG5Pw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/p-locate/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "parent-module",
+    "version": "1.0.1",
+    "license": "MIT",
+    "integrity": "sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/parent-module/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "path-exists",
+    "version": "4.0.0",
+    "license": "MIT",
+    "integrity": "sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/path-exists/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "path-key",
+    "version": "3.1.1",
+    "license": "MIT",
+    "integrity": "sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/path-key/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "picocolors",
+    "version": "1.1.1",
+    "license": "ISC",
+    "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/picocolors/LICENSE",
+        "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "picomatch",
+    "version": "4.0.4",
+    "license": "MIT",
+    "integrity": "sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/picomatch/LICENSE",
+        "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "prelude-ls",
+    "version": "1.2.1",
+    "license": "MIT",
+    "integrity": "sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/prelude-ls/LICENSE",
+        "sha256": "b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "prettier",
+    "version": "3.7.4",
+    "license": "MIT",
+    "integrity": "sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/prettier/LICENSE",
+        "sha256": "b0f2417199889f1c0d28ec4e0244eacf1a15de5819d61f641dd7d8f45153ac9c"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "punycode",
+    "version": "2.3.1",
+    "license": "MIT",
+    "integrity": "sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/punycode/LICENSE-MIT.txt",
+        "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "react",
+    "version": "19.0.0",
+    "license": "MIT",
+    "integrity": "sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/react/LICENSE",
+        "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "resolve-from",
+    "version": "4.0.0",
+    "license": "MIT",
+    "integrity": "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/resolve-from/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "safer-buffer",
+    "version": "2.1.2",
+    "license": "MIT",
+    "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/safer-buffer/LICENSE",
+        "sha256": "4bc935e71be198c67ddf3c2b5fddb195f6edc182bfc155a96a6db61b44b494b9"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "semver",
+    "version": "7.7.3",
+    "license": "ISC",
+    "integrity": "sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/semver/LICENSE",
+        "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "shebang-command",
+    "version": "2.0.0",
+    "license": "MIT",
+    "integrity": "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/shebang-command/license",
+        "sha256": "69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "shebang-regex",
+    "version": "3.0.0",
+    "license": "MIT",
+    "integrity": "sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/shebang-regex/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "signal-exit",
+    "version": "4.1.0",
+    "license": "ISC",
+    "integrity": "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/signal-exit/LICENSE.txt",
+        "sha256": "b173e19b9a78df305577ace0e52ef45a4bcc915ea28b47b256dc3b68dcb1f7e7"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "string-width",
+    "version": "4.2.3",
+    "license": "MIT",
+    "integrity": "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/string-width/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "strip-ansi",
+    "version": "6.0.1",
+    "license": "MIT",
+    "integrity": "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/strip-ansi/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "strip-json-comments",
+    "version": "3.1.1",
+    "license": "MIT",
+    "integrity": "sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/strip-json-comments/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "supports-color",
+    "version": "8.1.1",
+    "license": "MIT",
+    "integrity": "sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/supports-color/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "tinyglobby",
+    "version": "0.2.15",
+    "license": "MIT",
+    "integrity": "sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/tinyglobby/LICENSE",
+        "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "ts-api-utils",
+    "version": "2.1.0",
+    "license": "MIT",
+    "integrity": "sha512-CUgTZL1irw8u29bzrOD/nH85jqyc74D6SshFgujOIA7osm2Rz7dYH77agkx7H4FBNxDq7Cjf+IjaX/8zwFW+ZQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/ts-api-utils/LICENSE.md",
+        "sha256": "76c9d5f5ea942054715c026f33f8717c9e24603196a3737b8899afa216bcbdab"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "tsx",
+    "version": "4.23.13",
+    "license": "MIT",
+    "integrity": "sha512-BL5MGkRln6aDYhb0xbQlEAGw743BaZYWdbWtdJOBriYJboKgUUYCadFp2/FpBBZquBC/ezNBn7wMMPx7FDZUDw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/tsx/LICENSE",
+        "sha256": "8dded67841a9261a622c739fb61c81785e93765de852828ceeb9403d20a74581"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "@esbuild/darwin-arm64",
+    "version": "0.28.2",
+    "license": "MIT",
+    "integrity": "sha512-n4KqkOQrraxHJcgjM1RvwbigfQKIKJVpM7xp+KsxiyUSrRdIXnt73VhrPAx0fV44hgfmIVKjxMN9J1t5jySVkw==",
+    "files": [],
+    "missingText": true
+  },
+  {
+    "scope": "v1",
+    "package": "esbuild",
+    "version": "0.28.2",
+    "license": "MIT",
+    "integrity": "sha512-HKVLS8dvII+xoKW9kmqxbRKrnWEXfJJr/FZhhJmiqIB0e053QNYFqOBouTMO/k5sID4MvCiUCvv8b9M4h32wIA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/tsx/esbuild/LICENSE.md",
+        "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "type-check",
+    "version": "0.4.0",
+    "license": "MIT",
+    "integrity": "sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/type-check/LICENSE",
+        "sha256": "b9eb082c39fe245e38793699074c394c43a722c51fce031c3c165cb92a31035c"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "type-fest",
+    "version": "0.21.3",
+    "license": "(MIT OR CC0-1.0)",
+    "integrity": "sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/type-fest/license",
+        "sha256": "64a93ffc0a06a2266dbb57ed7ebe3b56ba66ab337b6347fabdbf86c76819fbae"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "typescript",
+    "version": "5.9.3",
+    "license": "Apache-2.0",
+    "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/typescript/LICENSE.txt",
+        "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "typescript-eslint",
+    "version": "8.50.1",
+    "license": "MIT",
+    "integrity": "sha512-ytTHO+SoYSbhAH9CrYnMhiLx8To6PSSvqnvXyPUgPETCvB6eBKmTI9w6XMPS3HsBRGkwTVBX+urA8dYQx6bHfQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/typescript-eslint/LICENSE",
+        "sha256": "2eb5c7a0bba9deb77a98c81bf6b9d3fb1c67118eebf968b6b1a787b3f8928ee0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "undici-types",
+    "version": "7.18.2",
+    "license": "MIT",
+    "integrity": "sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/undici-types/LICENSE",
+        "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "uri-js",
+    "version": "4.4.1",
+    "license": "BSD-2-Clause",
+    "integrity": "sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/uri-js/LICENSE",
+        "sha256": "0af366eff4c01ec147c9c61ea9e8ffad64a4294754c9d79355f3fd1b97cb2fb9"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "which",
+    "version": "2.0.2",
+    "license": "ISC",
+    "integrity": "sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/which/LICENSE",
+        "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "widest-line",
+    "version": "3.1.0",
+    "license": "MIT",
+    "integrity": "sha512-NsmoXalsWVDMGupxZ5R08ka9flZjjiLvHVAWYOKtiKM8ujtZWr9cRffak+uSE48+Ob8ObalXpwyeUiyDD6QFgg==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/widest-line/license",
+        "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "word-wrap",
+    "version": "1.2.5",
+    "license": "MIT",
+    "integrity": "sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/word-wrap/LICENSE",
+        "sha256": "73b5283588baa142c5baaef5f56d3e8fdea7a30b214e8c5737e87640f882453a"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "wordwrap",
+    "version": "1.0.0",
+    "license": "MIT",
+    "integrity": "sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/wordwrap/LICENSE",
+        "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "wrap-ansi",
+    "version": "7.0.0",
+    "license": "MIT",
+    "integrity": "sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/wrap-ansi/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "yocto-queue",
+    "version": "0.1.0",
+    "license": "MIT",
+    "integrity": "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/yocto-queue/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "v1",
+    "package": "yoctocolors-cjs",
+    "version": "2.1.3",
+    "license": "MIT",
+    "integrity": "sha512-U/PBtDf35ff0D8X8D0jfdzHYEPFxAI7jJlxZXwCSez5M3190m+QobIfh+sWDWSHMCWWJN2AWamkegn6vr6YBTw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/v1/yoctocolors-cjs/license",
+        "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "tooling",
+    "package": "ajv",
+    "version": "8.17.1",
+    "license": "MIT",
+    "integrity": "sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==",
+    "files": [
+      {
+        "path": "licenses/qa-node/tooling/ajv/LICENSE",
+        "sha256": "a05350a88e318e4f5f2c2a1ff1e2e88daa4dd38e6e78b71cccae422bdc762cc3"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "tooling",
+    "package": "ajv-formats",
+    "version": "3.0.1",
+    "license": "MIT",
+    "integrity": "sha512-8iUql50EUR+uUcdRQ3HDqa6EVyo3docL8g5WJ3FNcWmu62IbkGUue/pEyLBW8VGKKucTPgqeks4fIU1DA4yowQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/tooling/ajv-formats/LICENSE",
+        "sha256": "9df3bb69929a3b650ed73b3bfa1756725aaff0ac296461605753547004eafeaf"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "tooling",
+    "package": "fast-deep-equal",
+    "version": "3.1.3",
+    "license": "MIT",
+    "integrity": "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==",
+    "files": [
+      {
+        "path": "licenses/qa-node/tooling/fast-deep-equal/LICENSE",
+        "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "tooling",
+    "package": "fast-uri",
+    "version": "3.1.9",
+    "license": "BSD-3-Clause",
+    "integrity": "sha512-hS/0Wt3Ya043oKXs0sIxrMpKQITXhMLIrVAKKXi4gozGC9v7YRWVnXIZzjNPTO02M9BdxLCWqK1yRXgNziVyJQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/tooling/fast-uri/LICENSE",
+        "sha256": "b010b0dfdfdb23d7396e03b82cd4621fc9bb8f95d6b0aea70b9c24e12074c786"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "tooling",
+    "package": "json-schema-traverse",
+    "version": "1.0.0",
+    "license": "MIT",
+    "integrity": "sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==",
+    "files": [
+      {
+        "path": "licenses/qa-node/tooling/json-schema-traverse/LICENSE",
+        "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "tooling",
+    "package": "react",
+    "version": "19.0.0",
+    "license": "MIT",
+    "integrity": "sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/tooling/react/LICENSE",
+        "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "tooling",
+    "package": "react-dom",
+    "version": "19.0.0",
+    "license": "MIT",
+    "integrity": "sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==",
+    "files": [
+      {
+        "path": "licenses/qa-node/tooling/react-dom/LICENSE",
+        "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "tooling",
+    "package": "require-from-string",
+    "version": "2.0.2",
+    "license": "MIT",
+    "integrity": "sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==",
+    "files": [
+      {
+        "path": "licenses/qa-node/tooling/require-from-string/license",
+        "sha256": "6ee0feb1f6ef996ff5a68600f8cf98909cf412d39ef3cdceaefd87d636fa1b7f"
+      }
+    ],
+    "missingText": false
+  },
+  {
+    "scope": "tooling",
+    "package": "scheduler",
+    "version": "0.25.0",
+    "license": "MIT",
+    "integrity": "sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==",
+    "files": [
+      {
+        "path": "licenses/qa-node/tooling/scheduler/LICENSE",
+        "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+      }
+    ],
+    "missingText": false
+  }
+]

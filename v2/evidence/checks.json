@@ -1,0 +1,91 @@
+{
+  "stableProtocol": {
+    "passed": [
+      "OS-pipe list, copy literal, one-use IDs, A/B/A latest, stale actions",
+      "ordinary completed fetch failure has deliberate working Retry",
+      "credential/group cache isolation; no API pagination forwarding",
+      "remote shorten + invalid ACK + exact prepared clipboard retry without POST",
+      "canceled POST persists uncertainty; reopen/refresh never automatically resends",
+      "cancel-open/drop cleanup, late ACK ignored, prepared link survives reopen",
+      "dispose during reverse RPC, late reply and shutdown",
+      "actual fifteen-second HTTP timeout preserves uncertainty; refresh/reopen do not resend",
+      "132 canceled opens exceed capacity without leaking SDK/adapter session registrations",
+      "simultaneous independent profile processes do not reuse list caches or recovery records",
+      "redirect, partial body, size overflow rejected over real HTTP",
+      "EOF drains pending reverse RPC and exits within four seconds",
+      "TLS certificate verification: untrusted certificate rejected before auth; explicit synthetic CA succeeds"
+    ]
+  },
+  "msrvProtocol": {
+    "passed": [
+      "OS-pipe list, copy literal, one-use IDs, A/B/A latest, stale actions",
+      "ordinary completed fetch failure has deliberate working Retry",
+      "credential/group cache isolation; no API pagination forwarding",
+      "remote shorten + invalid ACK + exact prepared clipboard retry without POST",
+      "canceled POST persists uncertainty; reopen/refresh never automatically resends",
+      "cancel-open/drop cleanup, late ACK ignored, prepared link survives reopen",
+      "dispose during reverse RPC, late reply and shutdown",
+      "actual fifteen-second HTTP timeout preserves uncertainty; refresh/reopen do not resend",
+      "132 canceled opens exceed capacity without leaking SDK/adapter session registrations",
+      "simultaneous independent profile processes do not reuse list caches or recovery records",
+      "redirect, partial body, size overflow rejected over real HTTP",
+      "EOF drains pending reverse RPC and exits within four seconds",
+      "TLS certificate verification: untrusted certificate rejected before auth; explicit synthetic CA succeeds"
+    ]
+  },
+  "extractedProduction": {
+    "passed": [
+      "extracted/production executable: hello/initialize, no-network invalid-token/URL and successful prepared-link copy domain flows, unsupported command"
+    ]
+  },
+  "domainTests": {
+    "stable": "11 passed",
+    "rust1.85": "11 passed"
+  },
+  "rustfmt": "passed",
+  "strictAllTargetClippy": {
+    "stable": "passed",
+    "rust1.85": "passed"
+  },
+  "sourceOracle": {
+    "executedCommandCases": 14,
+    "executedJavaScriptUrlCases": 20,
+    "utilsVersion": "2.2.2",
+    "producers": "closed injected/blocked; no real services"
+  },
+  "hostFixtures": {
+    "schemaNegativeCases": 8,
+    "actualListRuntimeSSR": "passed",
+    "actualExtractedRegistry": "passed",
+    "installer": "boundary stub",
+    "fullApp": "not run",
+    "patch": "unapplied"
+  },
+  "v1": {
+    "test": "passed, 1 original test",
+    "typecheck": "passed",
+    "location": "ignored byte-exact v2/qa/v1",
+    "rootLock": "unchanged"
+  },
+  "windowsGNU": {
+    "state": "failed",
+    "command": "cargo check --locked --manifest-path v2/Cargo.toml --target x86_64-pc-windows-gnu --bin bitly-url-shortener",
+    "reason": "ring C compilation: x86_64-w64-mingw32-gcc not found"
+  },
+  "windowsMSVC": "not run",
+  "realDesktop": {
+    "macOS": "not run",
+    "Windows": "not run"
+  },
+  "realBitlyAPI": "not run; prohibited during QA",
+  "sourceFiles": {
+    "src/lib.rs": "98b45c1407aea9da06f443e4c07a00c1cbe1ae7b2e175c781de6366a11aa065a",
+    "src/store.rs": "712e42f2b48e004746505d2de37275055071961ef4b76921ce0986f9369a7233",
+    "src/main.rs": "3635bb12a2c78793ca3fc7bc0bb48617f0a5dc0ecbe555f777416e1165cb1ab9",
+    "src/http.rs": "782a14c94d81193599a243bdb994c9860e94c84962996af2e1b42169359a5fa9",
+    "tests/domain.rs": "baf8ab1f7e9f0b935e0eea038dfbe6f67094067717247543f02d5f1a4c0e2e6e",
+    "tests/fixture.rs": "b8dae3d7ecc46b6dd037929e2452666666091f49783e4d062a494db031e84484",
+    "tests/tls/server.pem": "63b465318cb692785aea72ed353dc228dc9057f0ff42553cd4fc995d94d6d220",
+    "tests/tls/server-key.pem": "5cdcbb1bd6189036c4c3baab7e3cc90fcd4602a0c5a3d8574294ab830b1cad3a"
+  }
+}

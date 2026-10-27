@@ -1,0 +1,3099 @@
+[
+  {
+    "schemaVersion": 3,
+    "id": "com.tezbar.native.amphetamine",
+    "slug": "amphetamine",
+    "name": "Amphetamine",
+    "version": "1.1.1",
+    "description": "Keep your computer awake with native Tezbar sessions",
+    "author": "gstvds",
+    "icon": "resources/assets/icon.png",
+    "runtime": "rust",
+    "replaces": [
+      "raycast.amphetamine"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "preferences": [],
+    "commands": [
+      {
+        "name": "amp-start",
+        "title": "Start New Session",
+        "description": "Start a new default session",
+        "mode": "no-view",
+        "keywords": [
+          "start",
+          "amp",
+          "amp start",
+          "amphetamine",
+          "ampstart"
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "quick-start",
+        "title": "Quick Start Session",
+        "description": "Start a keep-awake session by typing the duration inline; leave all fields empty for a session with no time limit",
+        "mode": "no-view",
+        "arguments": [
+          {
+            "name": "hours",
+            "type": "text",
+            "placeholder": "Hours (empty = no limit)",
+            "required": false
+          },
+          {
+            "name": "minutes",
+            "type": "text",
+            "placeholder": "Minutes",
+            "required": false
+          },
+          {
+            "name": "seconds",
+            "type": "text",
+            "placeholder": "Seconds",
+            "required": false
+          }
+        ],
+        "preferences": [
+          {
+            "name": "displaySleepAllowed",
+            "type": "checkbox",
+            "required": false,
+            "default": false,
+            "title": "Display Sleep",
+            "label": "Allow the display to sleep during the session",
+            "description": "When enabled, the session keeps the Mac awake but lets the display turn off."
+          }
+        ],
+        "keywords": [
+          "quick",
+          "amp",
+          "amp quick",
+          "amphetamine",
+          "start",
+          "duration"
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "amp-end",
+        "title": "End Current Session",
+        "description": "End the current session",
+        "mode": "no-view",
+        "keywords": [
+          "end",
+          "amp",
+          "amp end",
+          "amphetamine",
+          "ampend"
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "remaining",
+        "title": "Get Remaining Time",
+        "description": "Get current session remaining time",
+        "mode": "no-view",
+        "keywords": [
+          "remaining",
+          "amp",
+          "amp remaining",
+          "amphetamine"
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "amp-duration",
+        "title": "Configure New Session",
+        "description": "Start a new session with a duration or until a specific time",
+        "mode": "view",
+        "keywords": [
+          "interval",
+          "amp",
+          "amp interval",
+          "amphetamine",
+          "duration",
+          "time",
+          "until",
+          "amp duration",
+          "amp time",
+          "amp until"
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      }
+    ],
+    "verification": [
+      {
+        "platform": "macOS",
+        "state": "not-run"
+      },
+      {
+        "platform": "Windows",
+        "state": "not-run"
+      }
+    ],
+    "execution": "process",
+    "protocolVersion": 1,
+    "repository": "https://github.com/almatkai/amphetamine",
+    "artifacts": {
+      "x86_64-pc-windows-msvc": {
+        "sha256": "21ffdc19be3dd445a8ed6c8d28f3711025b0f1b0dd8afb72ba22f937de287ed4",
+        "executable": "bin/tezbar-amphetamine.exe",
+        "executableSha256": "1f24f2154f9d88116db23b9a30348c1c68b79b54d228382a272e3dbb7136349a",
+        "url": "https://github.com/almatkai/amphetamine/releases/download/v1.1.1/amphetamine-x86_64-pc-windows-msvc.zip"
+      },
+      "aarch64-apple-darwin": {
+        "sha256": "2811d7728e36f40ad28be1c893e385ab668b3e299d090700dde9cd536e582fdf",
+        "executable": "bin/tezbar-amphetamine",
+        "executableSha256": "bcf8ab120b02df02b3dc10ad86ed8eb2a565ea2042e86c5f00bffcec7bf51ef0",
+        "url": "https://github.com/almatkai/amphetamine/releases/download/v1.1.1/amphetamine-aarch64-apple-darwin.zip"
+      }
+    },
+    "capabilities": [
+      "background"
+    ],
+    "migrationPaths": {
+      "nativeStore": "native-extensions-v2/amphetamine/storage.json"
+    },
+    "files": {}
+  },
+  {
+    "schemaVersion": 3,
+    "id": "com.tezbar.native.audio-device",
+    "slug": "audio-device",
+    "name": "Set Audio Device",
+    "version": "1.0.0",
+    "description": "Switch audio devices, volume, favorites and defaults. Auto-switch commands apply once per invocation.",
+    "author": "benvp",
+    "icon": "resources/assets/command-icon.png",
+    "runtime": "rust",
+    "replaces": [
+      "raycast.audio-device"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "preferences": [
+      {
+        "name": "systemOutput",
+        "required": false,
+        "title": "Play sound effects through current output",
+        "description": "Play system sounds through current output.",
+        "label": "Update system sounds output",
+        "type": "checkbox",
+        "default": false
+      },
+      {
+        "name": "favourite",
+        "required": false,
+        "title": "Favourite Output Device",
+        "description": "The name, as found in the output device list, of the output device to use as the first favourite",
+        "type": "textfield",
+        "default": ""
+      },
+      {
+        "name": "favourite2",
+        "required": false,
+        "title": "Favourite Output Device 2",
+        "description": "The name, as found in the output device list, of the output device to use as the second favourite",
+        "type": "textfield",
+        "default": ""
+      }
+    ],
+    "commands": [
+      {
+        "name": "set-output-device",
+        "title": "Set Output Device",
+        "description": "Sets the active audio output device.",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": 2000
+      },
+      {
+        "name": "set-input-device",
+        "title": "Set Input Device",
+        "description": "Sets the active audio input device.",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": 2000
+      },
+      {
+        "name": "set-volume",
+        "title": "Set Output Volume",
+        "description": "Set the volume of an output device.",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": 2000
+      },
+      {
+        "name": "set-input-volume",
+        "title": "Set Input Volume",
+        "description": "Set the volume of an input device.",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": 2000
+      },
+      {
+        "name": "auto-switch-input",
+        "title": "Enforce Input Device",
+        "description": "Apply your default input device and pinned volumes now. Automatic periodic enforcement is not available in Native V2 yet.",
+        "mode": "no-view",
+        "interval": "1m",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "auto-switch-output",
+        "title": "Enforce Output Device",
+        "description": "Apply your default output device and pinned volumes now. Automatic periodic enforcement is not available in Native V2 yet.",
+        "mode": "no-view",
+        "interval": "1m",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "customize-order",
+        "title": "Customize Order (Replaced)",
+        "description": "This command has been replaced. Use Cmd+Shift+D in Set Output/Input Device to set a default device.",
+        "mode": "view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": 2000
+      },
+      {
+        "name": "favourite",
+        "title": "Set Output Device to Favourite",
+        "description": "Sets the active audio output device to the favourite specified in the preferences",
+        "mode": "no-view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "toggle-favourites",
+        "title": "Toggle Favourites",
+        "description": "Toggle the active audio output device between the favourites specified in the preferences",
+        "mode": "no-view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "use-combo1",
+        "title": "Use Combo 1",
+        "description": "Switch to the first input/output device combination",
+        "mode": "no-view",
+        "preferences": [
+          {
+            "name": "comboName",
+            "required": true,
+            "title": "Combo Name",
+            "description": "A friendly name for this device combination",
+            "type": "textfield",
+            "default": "Combo 1"
+          },
+          {
+            "name": "input",
+            "required": true,
+            "title": "Input Device",
+            "description": "The name of the input device for this combo",
+            "type": "textfield",
+            "default": ""
+          },
+          {
+            "name": "output",
+            "required": true,
+            "title": "Output Device",
+            "description": "The name of the output device for this combo",
+            "type": "textfield",
+            "default": ""
+          }
+        ],
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "use-combo2",
+        "title": "Use Combo 2",
+        "description": "Switch to the second input/output device combination",
+        "mode": "no-view",
+        "preferences": [
+          {
+            "name": "comboName",
+            "required": true,
+            "title": "Combo Name",
+            "description": "A friendly name for this device combination",
+            "type": "textfield",
+            "default": "Combo 2"
+          },
+          {
+            "name": "input",
+            "required": true,
+            "title": "Input Device",
+            "description": "The name of the input device for this combo",
+            "type": "textfield",
+            "default": ""
+          },
+          {
+            "name": "output",
+            "required": true,
+            "title": "Output Device",
+            "description": "The name of the output device for this combo",
+            "type": "textfield",
+            "default": ""
+          }
+        ],
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "use-combo3",
+        "title": "Use Combo 3",
+        "description": "Switch to the third input/output device combination",
+        "mode": "no-view",
+        "preferences": [
+          {
+            "name": "comboName",
+            "required": true,
+            "title": "Combo Name",
+            "description": "A friendly name for this device combination",
+            "type": "textfield",
+            "default": "Combo 3"
+          },
+          {
+            "name": "input",
+            "required": true,
+            "title": "Input Device",
+            "description": "The name of the input device for this combo",
+            "type": "textfield",
+            "default": ""
+          },
+          {
+            "name": "output",
+            "required": true,
+            "title": "Output Device",
+            "description": "The name of the output device for this combo",
+            "type": "textfield",
+            "default": ""
+          }
+        ],
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      }
+    ],
+    "verification": [
+      {
+        "platform": "macOS",
+        "state": "not-run"
+      },
+      {
+        "platform": "Windows",
+        "state": "not-run"
+      }
+    ],
+    "execution": "process",
+    "protocolVersion": 1,
+    "repository": "https://github.com/almatkai/audio-device",
+    "artifacts": {
+      "aarch64-apple-darwin": {
+        "sha256": "27bf0a54a6967448190ff9a620ad814754fd27394f8b4a2ab4d1c75a67bbf5c3",
+        "executable": "bin/tezbar-audio-device",
+        "executableSha256": "66a154f2176c7c319e02529d0c47e23f61935ffed3e4edad2c005fd33dd1025d",
+        "url": "https://github.com/almatkai/audio-device/releases/download/v1.0.0/audio-device-aarch64-apple-darwin.zip"
+      },
+      "x86_64-pc-windows-msvc": {
+        "sha256": "0e21e0853c4d5892d958b346a6a9b616edf91d74db12985eff299e832f7ac0c5",
+        "executable": "bin/tezbar-audio-device.exe",
+        "executableSha256": "f09a0c4c4f00b2c542e782d2f9666f62b20313a8fad07da6191625e1b038ee9d",
+        "url": "https://github.com/almatkai/audio-device/releases/download/v1.0.0/audio-device-x86_64-pc-windows-msvc.zip"
+      }
+    },
+    "capabilities": [
+      "clipboard.write"
+    ],
+    "migrationPaths": {
+      "nativeStore": "native-extensions-v2/audio-device/storage.json",
+      "legacyLocalStorage": "extensions/audio-device/.tezbar-local-storage.json",
+      "legacyPackageStorage": "extensions/packages/raycast.audio-device/.tezbar-local-storage.json"
+    },
+    "files": {}
+  },
+  {
+    "schemaVersion": 3,
+    "id": "com.tezbar.native.cleanshotx",
+    "slug": "cleanshotx",
+    "name": "CleanShot X",
+    "version": "1.0.0",
+    "description": "Capture and record your screen!",
+    "author": "Aayush9029",
+    "icon": "resources/assets/command-icon.png",
+    "runtime": "rust",
+    "replaces": [
+      "raycast.cleanshotx"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "preferences": [],
+    "commands": [
+      {
+        "name": "open-history",
+        "title": "Open History",
+        "description": "Show Screenshots History",
+        "mode": "no-view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "open-settings",
+        "title": "Open Settings",
+        "description": "Open Settings",
+        "mode": "no-view",
+        "arguments": [
+          {
+            "name": "tab",
+            "type": "dropdown",
+            "placeholder": "Tab",
+            "required": false,
+            "data": [
+              {
+                "title": "General",
+                "value": "general"
+              },
+              {
+                "title": "Wallpaper",
+                "value": "wallpaper"
+              },
+              {
+                "title": "Shortcuts",
+                "value": "shortcuts"
+              },
+              {
+                "title": "Quick Access",
+                "value": "quickaccess"
+              },
+              {
+                "title": "Recording",
+                "value": "recording"
+              },
+              {
+                "title": "Screenshots",
+                "value": "screenshots"
+              },
+              {
+                "title": "Annotate",
+                "value": "annotate"
+              },
+              {
+                "title": "Cloud",
+                "value": "cloud"
+              },
+              {
+                "title": "Advanced",
+                "value": "advanced"
+              },
+              {
+                "title": "About",
+                "value": "about"
+              }
+            ]
+          }
+        ],
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "view-uploads",
+        "title": "View Uploads",
+        "description": "View Uploads in Cleanshot Cloud",
+        "mode": "no-view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "all-in-one",
+        "title": "All in One",
+        "description": "Capture Record Crop All in One",
+        "mode": "no-view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "capture-fullscreen",
+        "title": "Capture Fullscreen",
+        "description": "Fullscreen Screenshot",
+        "mode": "no-view",
+        "arguments": [
+          {
+            "name": "action",
+            "type": "dropdown",
+            "placeholder": "Action",
+            "required": false,
+            "data": [
+              {
+                "title": "Copy",
+                "value": "copy"
+              },
+              {
+                "title": "Save",
+                "value": "save"
+              },
+              {
+                "title": "Annotate",
+                "value": "annotate"
+              },
+              {
+                "title": "Upload",
+                "value": "upload"
+              },
+              {
+                "title": "Pin",
+                "value": "pin"
+              }
+            ]
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "capture-area",
+        "title": "Capture Area",
+        "description": "Selection Tool Capture",
+        "mode": "no-view",
+        "arguments": [
+          {
+            "name": "action",
+            "type": "dropdown",
+            "placeholder": "Action",
+            "required": false,
+            "data": [
+              {
+                "title": "Copy",
+                "value": "copy"
+              },
+              {
+                "title": "Save",
+                "value": "save"
+              },
+              {
+                "title": "Annotate",
+                "value": "annotate"
+              },
+              {
+                "title": "Upload",
+                "value": "upload"
+              },
+              {
+                "title": "Pin",
+                "value": "pin"
+              }
+            ]
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "capture-previous-area",
+        "title": "Capture Previous Area",
+        "description": "Previously Selected Area",
+        "mode": "no-view",
+        "arguments": [
+          {
+            "name": "action",
+            "type": "dropdown",
+            "placeholder": "Action",
+            "required": false,
+            "data": [
+              {
+                "title": "Copy",
+                "value": "copy"
+              },
+              {
+                "title": "Save",
+                "value": "save"
+              },
+              {
+                "title": "Annotate",
+                "value": "annotate"
+              },
+              {
+                "title": "Upload",
+                "value": "upload"
+              },
+              {
+                "title": "Pin",
+                "value": "pin"
+              }
+            ]
+          }
+        ],
+        "platforms": [
+          "macOS"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "capture-window",
+        "title": "Capture Window",
+        "description": "Window Capture",
+        "mode": "no-view",
+        "arguments": [
+          {
+            "name": "action",
+            "type": "dropdown",
+            "placeholder": "Action",
+            "required": false,
+            "data": [
+              {
+                "title": "Copy",
+                "value": "copy"
+              },
+              {
+                "title": "Save",
+                "value": "save"
+              },
+              {
+                "title": "Annotate",
+                "value": "annotate"
+              },
+              {
+                "title": "Upload",
+                "value": "upload"
+              },
+              {
+                "title": "Pin",
+                "value": "pin"
+              }
+            ]
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "self-timer",
+        "title": "Self Timer",
+        "description": "Timer Based Screen Capture",
+        "mode": "no-view",
+        "arguments": [
+          {
+            "name": "action",
+            "type": "dropdown",
+            "placeholder": "Action",
+            "required": false,
+            "data": [
+              {
+                "title": "Copy",
+                "value": "copy"
+              },
+              {
+                "title": "Save",
+                "value": "save"
+              },
+              {
+                "title": "Annotate",
+                "value": "annotate"
+              },
+              {
+                "title": "Upload",
+                "value": "upload"
+              },
+              {
+                "title": "Pin",
+                "value": "pin"
+              }
+            ]
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "scrolling-capture",
+        "title": "Scrolling Capture",
+        "description": "Scrolling Capture Mode",
+        "mode": "no-view",
+        "platforms": [
+          "macOS"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "record-screen",
+        "title": "Record Screen",
+        "description": "Record Entire Screen",
+        "mode": "no-view",
+        "platforms": [
+          "macOS"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "capture-text",
+        "title": "Capture Text (OCR)",
+        "description": "Capture text using OCR",
+        "mode": "no-view",
+        "keywords": [
+          "text recognition"
+        ],
+        "platforms": [
+          "macOS"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "annotate",
+        "title": "Annotate",
+        "description": "Annotate Mode",
+        "mode": "no-view",
+        "arguments": [
+          {
+            "name": "filepath",
+            "placeholder": "File Path",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "open-from-clipboard",
+        "title": "Open from Clipboard",
+        "description": "Open Image From Clipboard",
+        "mode": "no-view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "toggle-desktop-icons",
+        "title": "Toggle Desktop Icons",
+        "description": "Toggle Desktop Icons Visibility",
+        "mode": "no-view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "hide-desktop-icons",
+        "title": "Hide Desktop Icons",
+        "description": "Hide Desktop Icons Visibility",
+        "mode": "no-view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "show-desktop-icons",
+        "title": "Show Desktop Icons",
+        "description": "Show Desktop Icons Visibility",
+        "mode": "no-view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "restore-recently-closed",
+        "title": "Restore Recently Closed",
+        "description": "Restore Recently Closed Overlay",
+        "mode": "no-view",
+        "platforms": [
+          "macOS"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "add-quick-access-overlay",
+        "title": "Add Quick Access Overlay",
+        "description": "Add Quick Access Overlay",
+        "mode": "no-view",
+        "arguments": [
+          {
+            "name": "filepath",
+            "placeholder": "File Path",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "platforms": [
+          "macOS"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "pin",
+        "title": "Pin Screenshot",
+        "description": "Pin Screenshot to the Screen.",
+        "mode": "no-view",
+        "arguments": [
+          {
+            "name": "filepath",
+            "placeholder": "File Path",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "platforms": [
+          "macOS"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "capture-area-raycast-aichat",
+        "title": "Send Captured Area to AI Chat",
+        "description": "Capture an area of the screen and send it to Raycast's AI Chat",
+        "mode": "no-view",
+        "platforms": [
+          "macOS"
+        ],
+        "runtime": "unavailable",
+        "gap": "Raycast AI Chat capture integration is not available in this standalone extension.",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "record-screen-preset",
+        "title": "Record Screen at Preset",
+        "description": "Start a screen recording at a chosen preset resolution",
+        "mode": "view",
+        "platforms": [
+          "macOS"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "manage-recording-presets",
+        "title": "Manage Recording Presets",
+        "description": "Add, edit, and delete custom recording resolution presets",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      }
+    ],
+    "verification": [
+      {
+        "platform": "macOS",
+        "state": "not-run"
+      },
+      {
+        "platform": "Windows",
+        "state": "not-run"
+      }
+    ],
+    "execution": "process",
+    "protocolVersion": 1,
+    "repository": "https://github.com/almatkai/cleanshotx",
+    "artifacts": {
+      "aarch64-apple-darwin": {
+        "sha256": "366d0386a897495b22c5bea3ae56fbd50a6a01a8d9f5d5d221ec237117ce3709",
+        "executable": "bin/tezbar-cleanshotx",
+        "executableSha256": "70d34f5cadccc18fc2b5f1245f66ceae2ef068f19a47e1b115ae49f3bff2db29",
+        "url": "https://github.com/almatkai/cleanshotx/releases/download/v1.0.0/cleanshotx-aarch64-apple-darwin.zip"
+      },
+      "x86_64-pc-windows-msvc": {
+        "sha256": "8b90220edf2ae9ba3326533fa140816d0ed8c26edfa831e2ed85eeb05a35e2f8",
+        "executable": "bin/tezbar-cleanshotx.exe",
+        "executableSha256": "dfbc5d5775e6acb5b76a0d594ee380420323f4b8cdaffc1919fbd664272d0884",
+        "url": "https://github.com/almatkai/cleanshotx/releases/download/v1.0.0/cleanshotx-x86_64-pc-windows-msvc.zip"
+      }
+    },
+    "capabilities": [
+      "shell.open",
+      "shell.openWithApp",
+      "shell.reveal",
+      "window.visibility",
+      "screen.capture",
+      "clipboard.read",
+      "clipboard.writeImage",
+      "apps.list"
+    ],
+    "migrationPaths": {
+      "nativeStore": "native-extensions-v2/cleanshotx/storage.json",
+      "captures": "native-v2-cleanshotx/captures"
+    },
+    "files": {}
+  },
+  {
+    "schemaVersion": 3,
+    "id": "com.tezbar.native.color-picker",
+    "slug": "color-picker",
+    "name": "Color Picker",
+    "version": "1.0.0",
+    "description": "Pick and organize colors, everywhere on your Mac",
+    "author": "thomas",
+    "icon": "resources/icon.png",
+    "runtime": "rust",
+    "replaces": [
+      "raycast.color-picker"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "preferences": [
+      {
+        "data": [
+          {
+            "title": "HEX - #FF6363",
+            "value": "hex"
+          },
+          {
+            "title": "HEX Lower Case - #ff6363",
+            "value": "hex-lower-case"
+          },
+          {
+            "title": "HEX No Prefix - FF6363",
+            "value": "hex-no-prefix"
+          },
+          {
+            "title": "RGB - rgb(255 99 99 / 100%)",
+            "value": "rgb"
+          },
+          {
+            "title": "RGB % - rgb(100% 38% 38% / 100%)",
+            "value": "rgb-percentage"
+          },
+          {
+            "title": "RGBA - rgba(255, 99, 99, 1)",
+            "value": "rgba"
+          },
+          {
+            "title": "RGBA % - rgba(100%, 39%, 39%, 1)",
+            "value": "rgba-percentage"
+          },
+          {
+            "title": "HSLA - hsla(0, 100%, 69%, 1)",
+            "value": "hsla"
+          },
+          {
+            "title": "HSVA - color(hsv 43.082 81.145 100)",
+            "value": "hsva"
+          },
+          {
+            "title": "OKLCH - oklch(0.6987 0.1902 23.468)",
+            "value": "oklch"
+          },
+          {
+            "title": "LCH - lch(63.127 68.676 28.723)",
+            "value": "lch"
+          },
+          {
+            "title": "P3 - color(display-p3 0.9248 0.428 0.4078)",
+            "value": "p3"
+          }
+        ],
+        "default": "hex",
+        "description": "The color format to use when copying/pasting colors",
+        "name": "colorFormat",
+        "required": false,
+        "title": "Color Format",
+        "type": "dropdown"
+      }
+    ],
+    "commands": [
+      {
+        "name": "pick-color",
+        "title": "Pick Color",
+        "description": "Pick a color on your desktop",
+        "mode": "no-view",
+        "preferences": [
+          {
+            "name": "showColorName",
+            "title": "Show color name after picking",
+            "description": "Show the name of the picked color after picking",
+            "type": "checkbox",
+            "label": "Show",
+            "default": false,
+            "required": false
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "extract-color",
+        "title": "Extract Color from Selected Image",
+        "description": "Extract colors from the selected File Explorer image",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "menu-bar",
+        "title": "Menu Bar Color Picker",
+        "description": "Access your colors from the menu bar",
+        "mode": "menu-bar",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "organize-colors",
+        "title": "Organize Colors",
+        "description": "Organize your colors",
+        "mode": "view",
+        "preferences": [
+          {
+            "data": [
+              {
+                "title": "Paste to Active App",
+                "value": "paste"
+              },
+              {
+                "title": "Copy to Clipboard",
+                "value": "copy"
+              }
+            ],
+            "default": "copy",
+            "description": "The primary action to perform on a selected color",
+            "name": "primaryAction",
+            "required": false,
+            "title": "Primary Action",
+            "type": "dropdown"
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "favorite-colors",
+        "title": "Favorite Colors",
+        "description": "View and use your favorite colors",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "generate-colors",
+        "title": "Generate Colors",
+        "description": "Generate colors using AI",
+        "mode": "view",
+        "arguments": [
+          {
+            "name": "prompt",
+            "placeholder": "Prompt",
+            "type": "text",
+            "required": true
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "color-names",
+        "title": "Color Names",
+        "description": "Get the name of a color",
+        "mode": "view",
+        "preferences": [
+          {
+            "type": "dropdown",
+            "name": "colorNamesPerGroup",
+            "required": false,
+            "title": "Color Names Per Group",
+            "description": "The number of color names to display per group",
+            "data": [
+              {
+                "title": "5",
+                "value": "5"
+              },
+              {
+                "title": "10",
+                "value": "10"
+              },
+              {
+                "title": "25",
+                "value": "25"
+              },
+              {
+                "title": "All",
+                "value": "Infinity"
+              }
+            ]
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "color-wheel",
+        "title": "Color Wheel",
+        "description": "Pick a color with color wheel",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "convert-color",
+        "title": "Convert Color",
+        "description": "Convert any color to a different format",
+        "mode": "view",
+        "arguments": [
+          {
+            "name": "text",
+            "type": "text",
+            "required": false,
+            "placeholder": "#FF6363"
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      }
+    ],
+    "verification": [
+      {
+        "platform": "macOS",
+        "state": "headless-tested",
+        "target": "aarch64-apple-darwin",
+        "detail": "Native Rust tests and release build; fixture-host stdio/package validation. Live desktop UI not tested."
+      },
+      {
+        "platform": "Windows",
+        "state": "not-run",
+        "target": "x86_64-pc-windows-msvc"
+      }
+    ],
+    "execution": "process",
+    "protocolVersion": 1,
+    "repository": "https://github.com/almatkai/tezbar-color-picker-extension",
+    "artifacts": {
+      "aarch64-apple-darwin": {
+        "url": "https://github.com/almatkai/tezbar-color-picker-extension/releases/download/v1.0.0/color-picker-aarch64-apple-darwin.zip",
+        "sha256": "2fb25d543740d174c02a2c203001cc225ffd460115c26a63e26bf8fae7ff381b",
+        "executable": "bin/tezbar-color-picker",
+        "executableSha256": "658f3a95cd06d92bb6371385d2a23db8f2bfaa6a86d9274eeb2f25f839917ea3"
+      },
+      "x86_64-pc-windows-msvc": {
+        "url": "https://github.com/almatkai/tezbar-color-picker-extension/releases/download/v1.0.0/color-picker-x86_64-pc-windows-msvc.zip",
+        "sha256": "2e1c5ac8f6589600d5068ba82069cb5f36e1b933fa18bccf8ba30eae4c682e94",
+        "executable": "bin/tezbar-color-picker.exe",
+        "executableSha256": "630de387f354705796102c6856fa9d16188d4ae20e7f4c15794a55bd36eae2a0"
+      }
+    },
+    "capabilities": [
+      "clipboard",
+      "selection",
+      "screen",
+      "ai",
+      "window",
+      "shell",
+      "settings",
+      "background",
+      "tray"
+    ],
+    "migrationPaths": {
+      "native-v2-store": "native-extensions-v2/color-picker/storage.json",
+      "legacy-0-0": "extensions/color-picker/.tezbar-support/cache/shared.json",
+      "legacy-0-1": "extensions/color-picker/.tezbar-local-storage.json",
+      "legacy-1-0": "extensions/packages/color-picker/.tezbar-support/cache/shared.json",
+      "legacy-1-1": "extensions/packages/color-picker/.tezbar-local-storage.json",
+      "legacy-2-0": "extensions/packages/raycast.color-picker/.tezbar-support/cache/shared.json",
+      "legacy-2-1": "extensions/packages/raycast.color-picker/.tezbar-local-storage.json",
+      "legacy-3-0": "extension-registry/packages/color-picker/.tezbar-support/cache/shared.json",
+      "legacy-3-1": "extension-registry/packages/color-picker/.tezbar-local-storage.json",
+      "legacy-4-0": "extension-registry/packages/raycast.color-picker/.tezbar-support/cache/shared.json",
+      "legacy-4-1": "extension-registry/packages/raycast.color-picker/.tezbar-local-storage.json"
+    },
+    "files": {}
+  },
+  {
+    "schemaVersion": 3,
+    "id": "com.tezbar.native.gif-search",
+    "slug": "gif-search",
+    "name": "GIF Search",
+    "version": "1.0.0",
+    "description": "Search the Internet for animated GIFs",
+    "author": "josephschmitt",
+    "icon": "resources/assets/command-icon.png",
+    "runtime": "rust",
+    "replaces": [
+      "raycast.gif-search"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "preferences": [
+      {
+        "name": "gridItemSize",
+        "type": "dropdown",
+        "required": false,
+        "title": "Grid Item Size",
+        "description": "Control the size of individual grid cells",
+        "default": "medium",
+        "data": [
+          {
+            "title": "Small",
+            "value": "small"
+          },
+          {
+            "title": "Medium",
+            "value": "medium"
+          },
+          {
+            "title": "Large",
+            "value": "large"
+          }
+        ]
+      },
+      {
+        "name": "gridTrendingItemSize",
+        "type": "dropdown",
+        "required": false,
+        "title": "Grid Trending Item Size",
+        "description": "Control the size of individual grid cells in the Trending view",
+        "default": "medium",
+        "data": [
+          {
+            "title": "Small",
+            "value": "small"
+          },
+          {
+            "title": "Medium",
+            "value": "medium"
+          },
+          {
+            "title": "Large",
+            "value": "large"
+          }
+        ]
+      },
+      {
+        "name": "maxResults",
+        "type": "textfield",
+        "required": false,
+        "default": "20",
+        "title": "Max Results",
+        "description": "Max number of results to return for a search"
+      },
+      {
+        "name": "defaultAction",
+        "type": "dropdown",
+        "required": false,
+        "title": "Default Action",
+        "description": "Customize what happens when hitting ENTER on a Gif",
+        "default": "copyFile",
+        "data": [
+          {
+            "title": "Copy GIF",
+            "value": "copyFile"
+          },
+          {
+            "title": "Paste GIF",
+            "value": "pasteFile"
+          },
+          {
+            "title": "Copy GIF Link",
+            "value": "copyGifUrl"
+          },
+          {
+            "title": "Paste GIF Link",
+            "value": "pasteGifUrl"
+          },
+          {
+            "title": "Copy GIF Markdown",
+            "value": "copyGifMarkdown"
+          },
+          {
+            "title": "Paste GIF Markdown",
+            "value": "pasteGifMarkdown"
+          },
+          {
+            "title": "Add or Remove from Favorites",
+            "value": "toggleFav"
+          },
+          {
+            "title": "View GIF Details",
+            "value": "viewDetails"
+          },
+          {
+            "title": "Copy GIF Square",
+            "value": "copySquareGif"
+          },
+          {
+            "title": "Paste GIF Square",
+            "value": "pasteSquareGif"
+          },
+          {
+            "title": "Copy Page Link",
+            "value": "copyPageUrl"
+          },
+          {
+            "title": "Open in Browser",
+            "value": "openUrlInBrowser"
+          },
+          {
+            "title": "Download GIF",
+            "value": "downloadFile"
+          }
+        ]
+      },
+      {
+        "name": "downloadPath",
+        "title": "GIF Download Path",
+        "description": "Path to save downloaded GIFs",
+        "type": "directory",
+        "required": false
+      },
+      {
+        "name": "hideFilename",
+        "type": "checkbox",
+        "required": false,
+        "title": "Hide Filename on Copy or Download",
+        "description": "Hide the original filename when copying or downloading GIFs",
+        "default": false,
+        "label": "Hide Filename"
+      },
+      {
+        "name": "giphyLocale",
+        "type": "dropdown",
+        "required": false,
+        "title": "Giphy Locale",
+        "description": "Select the locale for the Giphy API",
+        "default": "en",
+        "data": [
+          {
+            "title": "English",
+            "value": "en"
+          },
+          {
+            "title": "Spanish",
+            "value": "es"
+          },
+          {
+            "title": "Portuguese",
+            "value": "pt"
+          },
+          {
+            "title": "Indonesian",
+            "value": "id"
+          },
+          {
+            "title": "French",
+            "value": "fr"
+          },
+          {
+            "title": "Arabic",
+            "value": "ar"
+          },
+          {
+            "title": "Turkish",
+            "value": "tr"
+          },
+          {
+            "title": "Thai",
+            "value": "th"
+          },
+          {
+            "title": "Vietnamese",
+            "value": "vi"
+          },
+          {
+            "title": "German",
+            "value": "de"
+          },
+          {
+            "title": "Italian",
+            "value": "it"
+          },
+          {
+            "title": "Japanese",
+            "value": "ja"
+          },
+          {
+            "title": "Chinese Simplified",
+            "value": "zh-CN"
+          },
+          {
+            "title": "Chinese Traditional",
+            "value": "zh-TW"
+          },
+          {
+            "title": "Russian",
+            "value": "ru"
+          },
+          {
+            "title": "Korean",
+            "value": "ko"
+          },
+          {
+            "title": "Polish",
+            "value": "pl"
+          },
+          {
+            "title": "Dutch",
+            "value": "nl"
+          },
+          {
+            "title": "Romanian",
+            "value": "ro"
+          },
+          {
+            "title": "Hungarian",
+            "value": "hu"
+          },
+          {
+            "title": "Swedish",
+            "value": "sv"
+          },
+          {
+            "title": "Czech",
+            "value": "cs"
+          },
+          {
+            "title": "Hindi",
+            "value": "hi"
+          },
+          {
+            "title": "Bengali",
+            "value": "bn"
+          },
+          {
+            "title": "Danish",
+            "value": "da"
+          },
+          {
+            "title": "Farsi",
+            "value": "fa"
+          },
+          {
+            "title": "Filipino",
+            "value": "tl"
+          },
+          {
+            "title": "Finnish",
+            "value": "fi"
+          },
+          {
+            "title": "Hebrew",
+            "value": "he"
+          },
+          {
+            "title": "Malay",
+            "value": "ms"
+          },
+          {
+            "title": "Norwegian",
+            "value": "no"
+          },
+          {
+            "title": "Ukrainian",
+            "value": "uk"
+          }
+        ]
+      },
+      {
+        "name": "klipyLocale",
+        "type": "dropdown",
+        "required": false,
+        "title": "Klipy Locale",
+        "description": "Select the locale for the Klipy API",
+        "default": "en",
+        "data": [
+          {
+            "title": "English",
+            "value": "en"
+          },
+          {
+            "title": "Spanish",
+            "value": "es"
+          },
+          {
+            "title": "French",
+            "value": "fr"
+          },
+          {
+            "title": "German",
+            "value": "de"
+          },
+          {
+            "title": "Italian",
+            "value": "it"
+          },
+          {
+            "title": "Portuguese",
+            "value": "pt"
+          },
+          {
+            "title": "Japanese",
+            "value": "ja"
+          },
+          {
+            "title": "Korean",
+            "value": "ko"
+          },
+          {
+            "title": "Chinese Simplified",
+            "value": "zh-CN"
+          },
+          {
+            "title": "Chinese Traditional",
+            "value": "zh-TW"
+          }
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "name": "search",
+        "title": "Search for GIFs",
+        "description": "Search for GIFs across multiple services…",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "timeoutMs": 120000,
+        "concurrency": "serialize",
+        "refreshMs": 500
+      },
+      {
+        "name": "favorites",
+        "title": "Browse Favorite GIFs",
+        "description": "Browse and search your favorite GIFs across all services",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "timeoutMs": 120000,
+        "concurrency": "serialize",
+        "refreshMs": 500
+      },
+      {
+        "name": "recents",
+        "title": "Browse Recent GIFs",
+        "description": "Browse and search your recently used GIFs across all services",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "timeoutMs": 120000,
+        "concurrency": "serialize",
+        "refreshMs": 500
+      }
+    ],
+    "verification": [
+      {
+        "platform": "macOS",
+        "state": "not-run"
+      },
+      {
+        "platform": "Windows",
+        "state": "not-run"
+      }
+    ],
+    "execution": "process",
+    "protocolVersion": 1,
+    "repository": "https://github.com/almatkai/gif-search",
+    "artifacts": {
+      "aarch64-apple-darwin": {
+        "url": "https://github.com/almatkai/gif-search/releases/download/v1.0.0/gif-search-aarch64-apple-darwin.zip",
+        "sha256": "cd6b7720b353e6c3dc3b1ceab2e4522e7a42e884bb0dd016daf3e5f2a845cbc4",
+        "executable": "bin/tezbar-gif-search",
+        "executableSha256": "92e4e52b2d35a1610d42f7b45c03622e8819509714b336ac0ac164fb78325e38"
+      },
+      "x86_64-pc-windows-msvc": {
+        "url": "https://github.com/almatkai/gif-search/releases/download/v1.0.0/gif-search-x86_64-pc-windows-msvc.zip",
+        "sha256": "5fb427e666a2ed2cda93254f30ed388470e455bf00534385478456f69665dd93",
+        "executable": "bin/tezbar-gif-search.exe",
+        "executableSha256": "b660dec222285e175b2e9b5f6d18c9914a91c9936e351920cefe0e8367cc64db"
+      }
+    },
+    "capabilities": [
+      "host.clipboard.write",
+      "host.clipboard.writeFiles",
+      "host.clipboard.paste",
+      "host.clipboard.pasteText",
+      "host.shell.open",
+      "host.shell.reveal",
+      "host.window.visibility"
+    ],
+    "migrationPaths": {
+      "gif-search.legacy-storage": "extensions/gif-search/.tezbar-local-storage.json",
+      "gif-search.legacy-package-storage": "extensions/packages/raycast.gif-search/.tezbar-local-storage.json",
+      "gif-search.native-v2-store": "native-extensions-v2/gif-search/storage.json"
+    },
+    "files": {}
+  },
+  {
+    "schemaVersion": 3,
+    "id": "com.tezbar.native.google-calendar",
+    "slug": "google-calendar",
+    "name": "Google Calendar",
+    "version": "1.4.4",
+    "description": "Manage your Google calendar easily. Create events, search contacts, and check out your upcoming schedule.",
+    "author": "thomas",
+    "icon": "resources/icon.png",
+    "runtime": "rust",
+    "replaces": [
+      "raycast.google-calendar"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "preferences": [
+      {
+        "name": "addSignature",
+        "type": "checkbox",
+        "title": "Advanced",
+        "label": "Add Signature",
+        "description": "Add a signature that the event was created using Tezbar to the description of the event",
+        "default": true,
+        "required": false
+      },
+      {
+        "name": "defaultEventDuration",
+        "title": "Default Event Duration",
+        "description": "The default duration for new events",
+        "type": "dropdown",
+        "data": [
+          {
+            "title": "15 minutes",
+            "value": "15"
+          },
+          {
+            "title": "30 minutes",
+            "value": "30"
+          },
+          {
+            "title": "45 minutes",
+            "value": "45"
+          },
+          {
+            "title": "1 hour",
+            "value": "60"
+          },
+          {
+            "title": "1.5 hours",
+            "value": "90"
+          },
+          {
+            "title": "2 hours",
+            "value": "120"
+          }
+        ],
+        "default": "30",
+        "required": false
+      },
+      {
+        "name": "sendInvitations",
+        "title": "Send Invitations",
+        "description": "Whether to send email invitations (including meeting links) to guests when creating or editing events",
+        "type": "dropdown",
+        "data": [
+          {
+            "title": "All Guests",
+            "value": "all"
+          },
+          {
+            "title": "External Guests Only",
+            "value": "externalOnly"
+          },
+          {
+            "title": "None",
+            "value": "none"
+          }
+        ],
+        "default": "all",
+        "required": false
+      }
+    ],
+    "commands": [
+      {
+        "name": "create-event",
+        "title": "Create Event",
+        "description": "Creates an event in your Google Calendar",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "timeoutMs": 240000,
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "create-quick-event",
+        "title": "Create Quick Event",
+        "description": "Creates a quick event in your Google Calendar",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "timeoutMs": 240000,
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "search-contacts",
+        "title": "Search Contacts",
+        "description": "Search your Google Contacts",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "timeoutMs": 240000,
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "list-events",
+        "title": "List Events",
+        "description": "View your upcoming Google Calendar events",
+        "mode": "view",
+        "preferences": [
+          {
+            "name": "showLocation",
+            "type": "checkbox",
+            "title": "Display",
+            "label": "Show location",
+            "description": "Show the event's location as an accessory in the list",
+            "default": false,
+            "required": false
+          },
+          {
+            "name": "showBirthdays",
+            "type": "checkbox",
+            "title": "Display",
+            "label": "Show birthdays",
+            "description": "Include Google Contacts birthday events when listing the primary calendar. Off by default because birthdays often flood upcoming events.",
+            "default": false,
+            "required": false
+          },
+          {
+            "name": "openCommandJoinsMeeting",
+            "type": "checkbox",
+            "title": "Advanced",
+            "label": "Join meeting",
+            "description": "Change the default behavior when opening an event to directly join the meeting (if a meeting link is available)",
+            "default": false,
+            "required": false
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "timeoutMs": 240000,
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "list-calendars",
+        "title": "List Calendars",
+        "description": "View your Google Calendars",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "timeoutMs": 240000,
+        "concurrency": "serialize",
+        "refreshMs": null
+      }
+    ],
+    "verification": [
+      {
+        "platform": "macOS",
+        "state": "not-run"
+      },
+      {
+        "platform": "Windows",
+        "state": "not-run"
+      }
+    ],
+    "execution": "process",
+    "protocolVersion": 1,
+    "repository": "https://github.com/almatkai/google-calendar",
+    "capabilities": [
+      "shell.open",
+      "clipboard.write"
+    ],
+    "artifacts": {
+      "aarch64-apple-darwin": {
+        "url": "https://github.com/almatkai/google-calendar/releases/download/v1.4.4/google-calendar-aarch64-apple-darwin.zip",
+        "sha256": "fdd294c7449f271b98ec06e7df25da80aab64dae49652d93eda6fffabf09f670",
+        "executable": "bin/tezbar-google-calendar",
+        "executableSha256": "eeb1400316d7ea1512d4b3a0c12b582f3270ec7dc438c66b45f653e512d7c172"
+      },
+      "x86_64-pc-windows-msvc": {
+        "url": "https://github.com/almatkai/google-calendar/releases/download/v1.4.4/google-calendar-x86_64-pc-windows-msvc.zip",
+        "sha256": "0dc469508fe94a795fb37fc0954271c7ed17b83f3abf72e62d144b6c2008356e",
+        "executable": "bin/tezbar-google-calendar.exe",
+        "executableSha256": "38a66ff690e3472ba58901639b4bac697cf3ee3b04df94b94c885fcd47eb90d3"
+      }
+    },
+    "migrationPaths": {
+      "nativeGoogleOAuth": "native-google-oauth/tokens.json"
+    },
+    "files": {}
+  },
+  {
+    "schemaVersion": 3,
+    "id": "com.tezbar.native.google-search",
+    "slug": "google-search",
+    "name": "Google Search",
+    "version": "1.0.0",
+    "description": "Google search with autosuggestions",
+    "author": "mblode",
+    "icon": "resources/assets/command-icon.png",
+    "runtime": "rust",
+    "replaces": [
+      "raycast.google-search"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "preferences": [
+      {
+        "name": "rememberSearchHistory",
+        "type": "checkbox",
+        "required": false,
+        "default": true,
+        "label": "Remember Search History",
+        "description": "Enable this checkbox to locally store Google search history."
+      },
+      {
+        "name": "useClipboardFallback",
+        "type": "checkbox",
+        "required": false,
+        "default": false,
+        "label": "Use Clipboard Fallback",
+        "description": "When no text is selected, fall back to using clipboard content for search."
+      }
+    ],
+    "commands": [
+      {
+        "name": "index",
+        "title": "Google Search",
+        "description": "Google search with autosuggestions",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      },
+      {
+        "name": "searchSelectText",
+        "title": "Google Search Selected Text",
+        "description": "Google search with selected text",
+        "mode": "no-view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null
+      }
+    ],
+    "verification": [
+      {
+        "platform": "macOS",
+        "state": "not-run"
+      },
+      {
+        "platform": "Windows",
+        "state": "not-run"
+      }
+    ],
+    "execution": "process",
+    "protocolVersion": 1,
+    "repository": "https://github.com/almatkai/google-search",
+    "artifacts": {
+      "aarch64-apple-darwin": {
+        "sha256": "2921a8a0e7092578e3b1cdcd7002cb7ab8595b286e2b80808cb7e266c0219b6e",
+        "executable": "bin/tezbar-google-search",
+        "executableSha256": "7a6fd027b4061fcc012b6614fba88257186658593293f57ecb42f4027acc2789",
+        "url": "https://github.com/almatkai/google-search/releases/download/v1.0.0/google-search-aarch64-apple-darwin.zip"
+      },
+      "x86_64-pc-windows-msvc": {
+        "sha256": "256f34f64cc5c4b2e26ce65869a04051efd0eb6a0becb10baa10b4fb8cc35ed5",
+        "executable": "bin/tezbar-google-search.exe",
+        "executableSha256": "886c47d6a84643976ec5f72aef6a8095be70ee60f4165f8a67408fe533f27762",
+        "url": "https://github.com/almatkai/google-search/releases/download/v1.0.0/google-search-x86_64-pc-windows-msvc.zip"
+      }
+    },
+    "capabilities": [
+      "selection.read",
+      "clipboard.read",
+      "clipboard.write",
+      "shell.open",
+      "window.visibility"
+    ],
+    "migrationPaths": {
+      "nativeStore": "native-extensions-v2/google-search/storage.json",
+      "legacyLocalStorage": "extensions/google-search/.tezbar-local-storage.json"
+    },
+    "files": {}
+  },
+  {
+    "schemaVersion": 3,
+    "id": "com.tezbar.native.perplexity",
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "version": "1.0.0",
+    "description": "Query Perplexity from Tezbar",
+    "author": "third774",
+    "icon": "resources/perplexity-logo.png",
+    "runtime": "rust",
+    "replaces": [
+      "raycast.perplexity"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "preferences": [],
+    "commands": [
+      {
+        "name": "ask-perplexity",
+        "title": "Ask Perplexity",
+        "description": "Search Perplexity with your query",
+        "mode": "view",
+        "arguments": [
+          {
+            "name": "query",
+            "type": "text",
+            "description": "The query to search for",
+            "placeholder": "Ask Anything..."
+          }
+        ],
+        "preferences": [
+          {
+            "label": "Use Perplexity App",
+            "description": "Open your query in Perplexity app, instead of the default Browser",
+            "default": false,
+            "type": "checkbox",
+            "name": "perplexityApp",
+            "required": false
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "reject-while-busy",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      }
+    ],
+    "verification": [
+      {
+        "platform": "macOS",
+        "state": "not-run"
+      },
+      {
+        "platform": "Windows",
+        "state": "not-run"
+      }
+    ],
+    "execution": "process",
+    "protocolVersion": 1,
+    "repository": "https://github.com/almatkai/perplexity",
+    "capabilities": [
+      "shell.open"
+    ],
+    "artifacts": {
+      "aarch64-apple-darwin": {
+        "url": "https://github.com/almatkai/perplexity/releases/download/v1.0.0/perplexity-aarch64-apple-darwin.zip",
+        "sha256": "82a706eee600dc98309bd19056a2496ee7e3cdca2a36785de50511a90601f855",
+        "executable": "bin/tezbar-perplexity",
+        "executableSha256": "95002401870ba84de894389ff31035743b6396e8798de5b79f38d73bd046b6db"
+      },
+      "x86_64-pc-windows-msvc": {
+        "url": "https://github.com/almatkai/perplexity/releases/download/v1.0.0/perplexity-x86_64-pc-windows-msvc.zip",
+        "sha256": "ea503b2780dac7dc703fa0da132c82b58b607bb555dedd274fcb2bb5ef5be4d4",
+        "executable": "bin/tezbar-perplexity.exe",
+        "executableSha256": "6db26b1cc27915fe311575e6dbdbb2c3426efff6b2d20ab9e1917659d9e49745"
+      }
+    },
+    "files": {}
+  },
+  {
+    "schemaVersion": 3,
+    "id": "com.tezbar.native.port-manager",
+    "slug": "port-manager",
+    "name": "Port Manager",
+    "version": "1.0.0",
+    "description": "Find open ports and close them",
+    "author": "lucaschultz",
+    "icon": "resources/command-icon.png",
+    "runtime": "rust",
+    "replaces": [
+      "raycast.port-manager",
+      "com.tezbar.port-manager"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "preferences": [
+      {
+        "name": "killSignal",
+        "description": "The signal used to kill the process on macOS. Windows always terminates with taskkill.",
+        "type": "dropdown",
+        "required": false,
+        "default": "ask",
+        "title": "Kill Signal",
+        "data": [
+          {
+            "title": "Ask before each kill",
+            "value": "ask"
+          },
+          {
+            "title": "Always use SIGTERM",
+            "value": "15"
+          },
+          {
+            "title": "Always use SIGKILL",
+            "value": "9"
+          }
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "name": "kill-listening-process",
+        "title": "Kill Process Listening on",
+        "description": "Kill the process listening on a given port",
+        "mode": "no-view",
+        "arguments": [
+          {
+            "name": "port",
+            "placeholder": "Port",
+            "type": "text",
+            "required": true,
+            "title": "Port"
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null,
+        "launcher": {
+          "recommendation": 760,
+          "inlineArgument": {
+            "name": "port",
+            "title": "Port",
+            "prompt": "Type a port, then press Enter",
+            "validation": {
+              "kind": "integer",
+              "min": 1,
+              "max": 65535,
+              "maxLength": 5,
+              "message": "Enter a valid TCP port"
+            }
+          },
+          "id": "extcmd:raycast.port-manager:kill-listening-process"
+        }
+      },
+      {
+        "name": "named-ports",
+        "title": "Named Ports",
+        "description": "Name ports to make them easier to find in the open port list",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null,
+        "launcher": {
+          "recommendation": 0,
+          "id": "extcmd:raycast.port-manager:named-ports"
+        }
+      },
+      {
+        "name": "open-ports",
+        "title": "Open Ports",
+        "description": "Show and Close Opened Ports",
+        "mode": "view",
+        "preferences": [
+          {
+            "name": "primaryPortAction",
+            "type": "dropdown",
+            "default": "kill",
+            "required": false,
+            "data": [
+              {
+                "title": "Kill",
+                "value": "kill"
+              },
+              {
+                "title": "Kill All",
+                "value": "killAll"
+              },
+              {
+                "title": "Kill Parent",
+                "value": "killParent"
+              },
+              {
+                "title": "Show Details",
+                "value": "showDetails"
+              },
+              {
+                "title": "Show in Finder",
+                "value": "showInFinder"
+              },
+              {
+                "title": "Copy Info",
+                "value": "copyInfo"
+              },
+              {
+                "title": "Copy Commands",
+                "value": "copyCommands"
+              },
+              {
+                "title": "Reload",
+                "value": "reload"
+              }
+            ],
+            "title": "Primary Port Action",
+            "description": "Choose which action to perform when selecting an port."
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": 3000,
+        "launcher": {
+          "recommendation": 720,
+          "id": "extcmd:raycast.port-manager:open-ports"
+        }
+      },
+      {
+        "name": "open-ports-menu-bar",
+        "title": "Open Ports in Menu Bar",
+        "description": "List open ports in menu bar",
+        "mode": "menu-bar",
+        "interval": "1m",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": 3000,
+        "launcher": {
+          "recommendation": 700,
+          "id": "extcmd:raycast.port-manager:open-ports-menu-bar"
+        }
+      }
+    ],
+    "verification": [
+      {
+        "platform": "macOS",
+        "state": "not-run"
+      },
+      {
+        "platform": "Windows",
+        "state": "not-run"
+      }
+    ],
+    "execution": "process",
+    "protocolVersion": 1,
+    "repository": "https://github.com/almatkai/port-manager",
+    "artifacts": {
+      "aarch64-apple-darwin": {
+        "url": "https://github.com/almatkai/port-manager/releases/download/v1.0.0/port-manager-aarch64-apple-darwin.zip",
+        "sha256": "9f5fd622d68bc3c655d9eb71a1cf8de6a7411960e6922d907073bd74dedc6fdc",
+        "executable": "bin/tezbar-port-manager",
+        "executableSha256": "f36515ab14e7df39c0194b76798c9f7bc884319539ed5bf8b368bd2a7dcd3e72"
+      },
+      "x86_64-pc-windows-msvc": {
+        "url": "https://github.com/almatkai/port-manager/releases/download/v1.0.0/port-manager-x86_64-pc-windows-msvc.zip",
+        "sha256": "38eef2282a3ecc88d715e97a1d8d0daedcf3adeaaf31d44c41f090e1fa93e5ca",
+        "executable": "bin/tezbar-port-manager.exe",
+        "executableSha256": "826738b064cf4f2edd12c4cea952f09dfef7535fd54cce67896ac5cc84fbbdd8"
+      }
+    },
+    "capabilities": [
+      "clipboard.write",
+      "dialog.confirm",
+      "safety.authorize",
+      "safety.record",
+      "launcher.publish"
+    ],
+    "migrationPaths": {
+      "namedPorts": "named-ports.json"
+    },
+    "files": {},
+    "launcherContributions": [
+      {
+        "id": "listeners",
+        "commandName": "kill-listening-process",
+        "argumentName": "port",
+        "surfaces": [
+          "query",
+          "argument"
+        ],
+        "limit": 12,
+        "timeoutMs": 1500,
+        "selectors": {
+          "terms": [
+            "port",
+            "open",
+            "listen",
+            "kill"
+          ],
+          "digitRun": {
+            "min": 2,
+            "max": 5
+          }
+        },
+        "index": true,
+        "bootstrapMigrationPaths": [
+          "namedPorts"
+        ]
+      }
+    ]
+  },
+  {
+    "schemaVersion": 3,
+    "id": "com.tezbar.native.speedtest",
+    "slug": "speedtest",
+    "name": "Speedtest",
+    "version": "1.0.0",
+    "description": "Test the performance and quality of your internet connection via speedtest.net",
+    "author": "tonka3000",
+    "icon": "resources/assets/speedtest.png",
+    "runtime": "rust",
+    "replaces": [
+      "raycast.speedtest"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "preferences": [],
+    "commands": [
+      {
+        "name": "index",
+        "title": "Test Internet Speed",
+        "description": "Test the performance and quality of your internet connection via speedtest.net",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "refreshMs": null,
+        "timeoutMs": 300000
+      }
+    ],
+    "verification": [
+      {
+        "platform": "macOS",
+        "state": "not-run"
+      },
+      {
+        "platform": "Windows",
+        "state": "not-run"
+      }
+    ],
+    "execution": "process",
+    "protocolVersion": 1,
+    "repository": "https://github.com/almatkai/speedtest",
+    "artifacts": {
+      "aarch64-apple-darwin": {
+        "sha256": "03a4d556fe26ae8766dfde3f9d6fa3ffd45675451c29652bb895a55b06a677ea",
+        "executable": "bin/tezbar-speedtest",
+        "executableSha256": "c3866576b26c62d0a24ce4b0d146968655cdb7c28382ce0dd0b3c605f834f9f5",
+        "url": "https://github.com/almatkai/speedtest/releases/download/v1.0.0/speedtest-aarch64-apple-darwin.zip"
+      },
+      "x86_64-pc-windows-msvc": {
+        "sha256": "0c162a9ec30749f1429f065e8705e0cc0b30503b91bf0da7d40d13448066dd54",
+        "executable": "bin/tezbar-speedtest.exe",
+        "executableSha256": "f2970a9fae8ff3a9dc5f6b23d25a3a99f55d3d73aca5d5dd9410ebcc26bc2033",
+        "url": "https://github.com/almatkai/speedtest/releases/download/v1.0.0/speedtest-x86_64-pc-windows-msvc.zip"
+      }
+    },
+    "capabilities": [
+      "clipboard.write",
+      "shell.open"
+    ],
+    "migrationPaths": {
+      "nativeStore": "native-extensions-v2/speedtest/storage.json",
+      "cli": "native-extensions-v2/speedtest/cli"
+    },
+    "files": {}
+  },
+  {
+    "schemaVersion": 3,
+    "id": "com.tezbar.native.timers",
+    "slug": "timers",
+    "name": "Timers",
+    "version": "1.0.0",
+    "description": "Start, stop, and save countdown timers, directly in Tezbar, with no external dependencies.",
+    "author": "ThatNerd",
+    "icon": "resources/command-icon.png",
+    "runtime": "rust",
+    "replaces": [
+      "raycast.timers"
+    ],
+    "platforms": [
+      "macOS",
+      "Windows"
+    ],
+    "preferences": [
+      {
+        "name": "selectedSound",
+        "type": "dropdown",
+        "required": true,
+        "title": "Selected Sound",
+        "description": "Sound played when a timer finishes.",
+        "default": "Submarine",
+        "data": [
+          {
+            "title": "Alarm Clock",
+            "value": "alarmClock.wav"
+          },
+          {
+            "title": "Dismembered Woodpecker",
+            "value": "dismemberedWoodpecker.wav"
+          },
+          {
+            "title": "Flute Riff",
+            "value": "fluteRiff.wav"
+          },
+          {
+            "title": "Level Up",
+            "value": "levelUp.wav"
+          },
+          {
+            "title": "Piano Chime",
+            "value": "pianoChime.wav"
+          },
+          {
+            "title": "Terminator",
+            "value": "terminator.wav"
+          },
+          {
+            "title": "Speak Timer Name",
+            "value": "speak_timer_name"
+          }
+        ]
+      },
+      {
+        "name": "volumeSetting",
+        "type": "textfield",
+        "required": false,
+        "title": "Timer Alert Volume",
+        "description": "Volume of the alert sound. Decimal between 0 and 1.",
+        "default": "1"
+      },
+      {
+        "name": "ringContinuously",
+        "type": "checkbox",
+        "required": false,
+        "title": "Timer Alert Type",
+        "description": "Whether or not to play the timer alert sound continuously until dismissed.",
+        "label": "Ring Continuously",
+        "default": true
+      },
+      {
+        "name": "showMenuBarIconWhen",
+        "type": "dropdown",
+        "required": false,
+        "title": "Show Menu Bar Icon When",
+        "description": "When to show icon in menubar.",
+        "default": "always",
+        "data": [
+          {
+            "title": "Always",
+            "value": "always"
+          },
+          {
+            "title": "Only When Not Running",
+            "value": "onlyWhenNotRunning"
+          },
+          {
+            "title": "Only When Running",
+            "value": "onlyWhenRunning"
+          },
+          {
+            "title": "Never",
+            "value": "never"
+          }
+        ]
+      },
+      {
+        "name": "showTitleInMenuBar",
+        "type": "checkbox",
+        "required": false,
+        "title": "Show Title in Menu Bar",
+        "description": "Whether or not to show the timer or stopwatch title in the menu bar.",
+        "label": "Show title",
+        "default": true
+      },
+      {
+        "name": "copyOnSwStop",
+        "type": "checkbox",
+        "required": false,
+        "title": "Copy on Stopwatch Stop",
+        "description": "Whether or not to copy the elapsed time on a stopwatch when it is stopped.",
+        "label": "Copy elapsed time",
+        "default": false
+      },
+      {
+        "name": "closeWindowOnTimerStart",
+        "type": "checkbox",
+        "required": false,
+        "title": "Close Window on Timer Start",
+        "description": "Whether or not to close the Tezbar window when a timer or stopwatch is started.",
+        "label": "Automatically close window on start",
+        "default": false
+      },
+      {
+        "name": "customTimerFormBypass",
+        "label": "Skip form if arguments are given",
+        "title": "Custom Timer Form Bypass",
+        "type": "checkbox",
+        "required": false,
+        "description": "For the 'Start Custom Timer' command, skip the timer add form if any hour, minute, or second arguments are given.",
+        "default": false
+      },
+      {
+        "name": "newTimerInputOrder",
+        "type": "dropdown",
+        "required": false,
+        "title": "New Timer Input Order",
+        "description": "Order for input fields in new timer form.",
+        "default": "Hours , Minutes, Seconds",
+        "data": [
+          {
+            "title": "Hours, Minutes, Seconds",
+            "value": "hhmmss"
+          },
+          {
+            "title": "Seconds, Minutes, Hours",
+            "value": "ssmmhh"
+          }
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "name": "start2MinuteTimer",
+        "title": "Start 2 Minute Timer",
+        "description": "Set a countdown for 2 minutes.",
+        "mode": "no-view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "start5MinuteTimer",
+        "title": "Start 5 Minute Timer",
+        "description": "Set a countdown for 5 minutes.",
+        "mode": "no-view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "start10MinuteTimer",
+        "title": "Start 10 Minute Timer",
+        "description": "Set a countdown for 10 minutes.",
+        "mode": "no-view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "start15MinuteTimer",
+        "title": "Start 15 Minute Timer",
+        "description": "Set a countdown for 15 minutes.",
+        "mode": "no-view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "start25MinuteTimer",
+        "title": "Start 25 Minute Timer",
+        "description": "Set a countdown for 25 minutes.",
+        "mode": "no-view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "start30MinuteTimer",
+        "title": "Start 30 Minute Timer",
+        "description": "Set a countdown for 30 minutes.",
+        "mode": "no-view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "start45MinuteTimer",
+        "title": "Start 45 Minute Timer",
+        "description": "Set a countdown for 45 minutes.",
+        "mode": "no-view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "start60MinuteTimer",
+        "title": "Start 60 Minute Timer",
+        "description": "Set a countdown for 60 minutes.",
+        "mode": "no-view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "start90MinuteTimer",
+        "title": "Start 90 Minute Timer",
+        "description": "Set a countdown for 90 minutes.",
+        "mode": "no-view",
+        "disabledByDefault": true,
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "startCustomTimer",
+        "title": "Start Custom Timer",
+        "description": "Set a countdown for a custom amount of time.",
+        "mode": "view",
+        "arguments": [
+          {
+            "name": "hours",
+            "placeholder": "hours",
+            "required": false,
+            "type": "text"
+          },
+          {
+            "name": "minutes",
+            "placeholder": "minutes",
+            "required": false,
+            "type": "text"
+          },
+          {
+            "name": "seconds",
+            "placeholder": "seconds",
+            "required": false,
+            "type": "text"
+          }
+        ],
+        "keywords": [
+          "new"
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": 1000
+      },
+      {
+        "name": "manageTimers",
+        "title": "Manage Timers",
+        "description": "View, start, or stop existing countdown timers.",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": 1000
+      },
+      {
+        "name": "timersMenuBar",
+        "title": "Timers Menu Bar",
+        "description": "View, start, or stop existing countdown timers from the Menu Bar.",
+        "mode": "menu-bar",
+        "interval": "10s",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": 1000
+      },
+      {
+        "name": "startStopwatch",
+        "title": "Start Stopwatch",
+        "description": "Start a stopwatch",
+        "mode": "no-view",
+        "arguments": [
+          {
+            "name": "name",
+            "placeholder": "stopwatch name",
+            "required": false,
+            "type": "text"
+          }
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "manageStopwatches",
+        "title": "Manage Stopwatches",
+        "description": "View, start, or stop existing stopwatches.",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": 1000
+      },
+      {
+        "name": "dismissTimerAlert",
+        "title": "Dismiss Ringing Timer",
+        "description": "Stop a ringing alert from a finished timer.",
+        "mode": "no-view",
+        "keywords": [
+          "Dismiss Timer Alert",
+          "Alert"
+        ],
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "stopwatchMenuBar",
+        "title": "Stopwatch Menu Bar",
+        "description": "View, start, or stop existing stopwatches from the Menu Bar.",
+        "mode": "menu-bar",
+        "interval": "10s",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": 1000
+      },
+      {
+        "name": "previewAlertSounds",
+        "title": "Preview Alert Sounds",
+        "description": "Play samples of different alert sound effects.",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": 1000
+      },
+      {
+        "name": "stopRunningTimer",
+        "title": "Stop Running Timer",
+        "description": "Stop the running timer closest to completion.",
+        "mode": "no-view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": null
+      },
+      {
+        "name": "configureMenubarPresets",
+        "title": "Configure Presets in Menu Bar",
+        "description": "Configure which presets to show in the Timers Menu Bar.",
+        "mode": "view",
+        "platforms": [
+          "macOS",
+          "Windows"
+        ],
+        "runtime": "rust",
+        "concurrency": "serialize",
+        "timeoutMs": 120000,
+        "refreshMs": 1000
+      }
+    ],
+    "verification": [
+      {
+        "platform": "macOS",
+        "state": "headless-tested",
+        "target": "aarch64-apple-darwin",
+        "detail": "Native Rust tests and release build; fixture-host stdio/package validation. Live desktop UI not tested."
+      },
+      {
+        "platform": "Windows",
+        "state": "not-run",
+        "target": "x86_64-pc-windows-msvc"
+      }
+    ],
+    "execution": "process",
+    "protocolVersion": 1,
+    "repository": "https://github.com/almatkai/timers",
+    "artifacts": {
+      "aarch64-apple-darwin": {
+        "url": "https://github.com/almatkai/timers/releases/download/v1.0.0/timers-aarch64-apple-darwin.zip",
+        "sha256": "f73252786b3fe40e4ab0c879b141958384e4a455b85467b12a5569332830b1eb",
+        "executable": "bin/tezbar-timers",
+        "executableSha256": "e3291d6362c2566fc124c896d958ccb791f4dfd98f54b79bb327812958e45820"
+      },
+      "x86_64-pc-windows-msvc": {
+        "url": "https://github.com/almatkai/timers/releases/download/v1.0.0/timers-x86_64-pc-windows-msvc.zip",
+        "sha256": "a5d42844a78323ba6930939478be190bf41209bb35d85fd550a7db6935272b57",
+        "executable": "bin/tezbar-timers.exe",
+        "executableSha256": "43d2d32973a940b72c2bb44bec2ad989bb2314e309b9ed5e728183a43cc51e92"
+      }
+    },
+    "capabilities": [
+      "clipboard",
+      "window",
+      "background",
+      "notifications"
+    ],
+    "startupProbe": {
+      "key": "timers",
+      "migrationPaths": [
+        "native-v2-store"
+      ]
+    },
+    "migrationPaths": {
+      "native-v2-store": "native-extensions-v2/timers/storage.json"
+    },
+    "files": {}
+  }
+]
